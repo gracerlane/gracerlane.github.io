@@ -15,12 +15,12 @@ body {
   }
 
   .top {
-/*    background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); */
+    background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); 
     width: 100%; 
     height: 60vh;
     text-align: center;
     float: left;
-    background-color: blue;
+/*    background-color: blue;*/
   }
 
   .menu {

@@ -362,6 +362,42 @@ body {
     font-size: 7vh;
   }
   /* blogEntry */
+  
+  
+  /* contact */
+  .contact .top {
+    height: 0;
+  }
+
+  .contact .bottom {
+    height: 0;
+  }
+
+  .contact .centerrect {
+    position: absolute;
+    top: 16vh;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+    width: 50vw;
+    height: 110vh;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  
+  .contact .content {
+/*    width: 50vw;*/
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  /* contact */
+  
 
 }
 
@@ -707,6 +743,42 @@ body {
   }
   /* blogEntry */
 
+  
+    /* contact */
+  .contact .top {
+    height: 0;
+  }
+
+  .contact .bottom {
+    height: 0;
+  }
+
+  .contact .centerrect {
+    position: absolute;
+    top: 16vh;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+    width: 90vw;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact .content {
+/*    width: 50vw;*/
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  /* contact */
 }
 
 
@@ -1065,6 +1137,43 @@ body {
     font-size: 5.7vh;
   }
   /* blogEntry */
+  
+  
+      /* contact */
+  .contact .top {
+    height: 0;
+  }
+
+  .contact .bottom {
+    height: 0;
+  }
+
+  .contact .centerrect {
+    position: absolute;
+    top: 14vh;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+    width: 70vw;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact .content {
+/*    width: 50vw;*/
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  /* contact */
 
 }
 
@@ -1414,6 +1523,42 @@ body {
     font-size: 6vw;
   }
   /* blogEntry */
+  
+      /* contact */
+  .contact .top {
+    height: 0;
+  }
+
+  .contact .bottom {
+    height: 0;
+  }
+
+  .contact .centerrect {
+    position: absolute;
+    top: 16vh;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+    width: 90vw;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact .content {
+/*    width: 50vw;*/
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  /* contact */
 
 }
 

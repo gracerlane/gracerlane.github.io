@@ -1150,7 +1150,7 @@ body {
     /* background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb);  */
 		background-image: linear-gradient(to bottom right, #fff, #9bc9df, #cce7f4, #e3f3fb); 
     width: 100%; 
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     float: left;
    /* background-color: blue; */

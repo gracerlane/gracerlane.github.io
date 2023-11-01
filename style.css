@@ -264,7 +264,67 @@ body {
 
   
   
+  /* experience */
+  .school .top {
+    background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); 
+    width: 0; 
+    height: 0;
+    text-align: center;
+  }
+
+  .school .shape{        
+    float: left;
+    background-color: aqua;
+    background: rgb(255,255,255,0);
+  }
+  .school .content {
+    float: left;
+    position: absolute;
+    top: 18vh;
+    left: 15vw;
+    width: 70vw;
+    height: auto;
+    background-color: #ffffff;
+    background: rgb(255,255,255,0);
+  }
+
+  .school .left {
+    height: 100%;
+    width: 50%;
+    left: 0;
+  }
+
+  .school .right {
+    height: 100%;
+    width: 50%;
+    left: 0;
+  }
+
+  .school h2 {
+/*    float: left;*/
+    margin: 0vh 1vw 0vh 1vw;
+    color: black;
+    font-family: sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+  }
+  .school h3 {
+/*    float: left;*/
+    margin: 1vh 1vw 0vh 1vw;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.6vw;
+    text-decoration: none;
+  }
   
+  .school p {
+    margin: 1vh 1vw 2.5vh 1vw;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    text-decoration: none;
+  }
+  /* experience */
   
 
   /* blogLanding */

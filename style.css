@@ -26,8 +26,8 @@ body {
   .menu {
     position: absolute;
     top: 7vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
+    left: 15vw;
+    /* transform: translate(0%, 0%); */
     width: 70vw;
     line-height: 50px;
     border-radius: 1em;
@@ -414,8 +414,8 @@ body {
   .menu {
     position: absolute;
     top: 7vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
+    left: 10vw;
+    /* transform: translate(-50%, 0%); */
     width: 80vw;
     line-height: 50px;
     border-radius: 1em;
@@ -786,8 +786,8 @@ body {
   .menu {
     position: absolute;
     top: 7vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
+    left: 10vw;
+    /* transform: translate(-50%, 0%); */
     width: 80vw;
     line-height: 50px;
     border-radius: 1em;
@@ -1150,7 +1150,7 @@ body {
     /* background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb);  */
 		background-image: linear-gradient(to bottom right, #fff, #9bc9df, #cce7f4, #e3f3fb); 
     width: 100%; 
-    height: 80vh;
+    height: 60vh;
     text-align: center;
     float: left;
    /* background-color: blue; */
@@ -1158,10 +1158,9 @@ body {
 
   .menu {
     position: absolute;
-    top: 7vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
-    width: 80vw;
+    top: 5vh;
+    left: 8vw;
+    width: 84vw;
     line-height: 50px;
     border-radius: 1em;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1179,11 +1178,11 @@ body {
   .menu a {
     position: relative;
     cursor: pointer;
-    padding: 8px 1vw;
+    padding: 1vw 1vw;
     margin: 0 0px;
     text-decoration: none;
     color: #000000;
-		font-size: 1.7vh;
+		font-size: 2.1vh;
   }
 
   .menu a::before {
@@ -1211,7 +1210,7 @@ body {
   .bottom {
     background-color: white; 
     width: 100%; 
-    height: 5vh;
+    height: 18vh;
     float: left;
   }
 
@@ -1224,9 +1223,9 @@ body {
   .home .rect {
     float: left;
     position: absolute;
-    top: 18vh;
-    left: 10vw;
-    width: 80vw;
+    top: 15vh;
+    left: 8vw;
+    width: 84vw;
     height: auto;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1248,14 +1247,14 @@ body {
   .rect h1{
     font-family: Arial Narrow, sans-serif;
     color: #909090;
-    font-size: 4vh; 
+    font-size: 4.5vh; 
     padding: 0; 
     margin: 20px 0px 0 20px;
   }
 
   .rect h2 {
     color: #000000;
-    font-size: 5vh; 
+    font-size: 6vh; 
     padding: 0; 
     margin: 0 20px 0 20px;
   }
@@ -1278,7 +1277,7 @@ body {
   
   .icon {
     float: left;
-    height: 2.5vh;
+    height: 3.5vh;
     width: auto;
     margin: 0vh 10px 0vh 20px;
   }
@@ -1289,7 +1288,7 @@ body {
     color: inherit;
     text-decoration: none;
     margin: 0vh 0 0 0;
-    font-size: 2vh;
+    font-size: 3vh;
   }
 
 	.row a {
@@ -1298,7 +1297,7 @@ body {
     color: inherit;
     text-decoration: none;
     margin: 0vh 0 0 0;
-    font-size: 2vh;
+    font-size: 3vh;
   }
   
   .home .content {
@@ -1464,7 +1463,7 @@ body {
     background-color: #ddd;
     background: rgba(255, 255, 255, 0);
     overflow: hidden;
-    margin: 20px auto;
+    margin: 0px 0 20vh 0;
   }
 
   .blogEntry p {
@@ -1476,7 +1475,7 @@ body {
     margin: 0vh 0vw 2vh 0vw;
     color: black;
     font-family: sans-serif;
-    font-size: 5vh;
+    font-size: 4vh;
   }
   /* blogEntry */
   

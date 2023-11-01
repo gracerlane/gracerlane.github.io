@@ -460,7 +460,7 @@ body {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .container {
     background-color: black; 
     width: 100%;

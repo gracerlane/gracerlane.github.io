@@ -1497,9 +1497,9 @@ body {
   .contact .content {
     float: left;
     position: absolute;
-    top: 17vh;
-    left: 7vw;
-    width: 86vw;
+    top: 15vh;
+    left: 5vw;
+    width: 90vw;
     height: auto;
     background-color: #ffffff;
     background: rgb(255,255,255,0);

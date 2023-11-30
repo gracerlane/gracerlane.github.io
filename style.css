@@ -1829,7 +1829,7 @@ body {
 }
 
 /* green */
-@media (max-width: 1190px) {
+@media (max-width: 1181px) {
 	.container {
 		background-color: black;
 		width: 100%;
@@ -1917,7 +1917,7 @@ body {
 		top: 150px;
 		left: 15vw;
 		width: 70vw;
-		height: 39vw;
+		height: 40vw;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #ffffff;
@@ -9659,6 +9659,7 @@ body {
 		width: 100%;
 		left: 0;
 		border: 0;
+		float: inline-start;
 	}
 
 	.rect h1 {
@@ -9667,6 +9668,7 @@ body {
 		font-size: 6vw;
 		padding: 0;
 		margin: 15px 0px 0 15px;
+		float: inline-start;
 	}
 
 	.rect h2 {
@@ -9674,6 +9676,7 @@ body {
 		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
+		float: inline-start;
 	}
 
 	.left #divider {

@@ -222,7 +222,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 16vh;
+		top: 18vh;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
@@ -283,7 +283,7 @@ body {
 .school .content {
 	float: left;
 	position: absolute;
-	top: 16vh;
+	top: 18vh;
 	left: 15vw;
 	width: 70vw;
 	height: auto;
@@ -451,7 +451,7 @@ body {
 	.contact .content {
 		float: left;
 		position: absolute;
-		top: 16vh;
+		top: 18vh;
 		left: 10vw;
 		width: 80vw;
 		height: auto;

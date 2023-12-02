@@ -9558,7 +9558,7 @@ body {
 
 }
 
-/* pink */
+/* pink- iphone */
 @media (max-width: 391px) {
 	.container {
 		background-color: black;
@@ -9668,7 +9668,7 @@ body {
 		font-size: 6vw;
 		padding: 0;
 		margin: 15px 0px 0 15px;
-		float: inline-start;
+		/* float: inline-start; */
 	}
 
 	.rect h2 {
@@ -9676,7 +9676,7 @@ body {
 		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
-		float: inline-start;
+		/* float: inline-start; */
 	}
 
 	.left #divider {
@@ -9687,7 +9687,7 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 15px -5px 15px;
-		float: inline-start;
+		/* float: inline; */
 	}
 
 	.row {

@@ -11,7 +11,7 @@
 <body>
 	<div class="container">
 		<div class="top" id="top">
-			<div class="collapsemenu" id="collapsemenu" onclick="myFunction()">=</div>
+			<div class="open" id="open" onclick="openSide()">=</div>
 			<div class="menu" id="menu">
 				<a id="active" href="index.html">Home</a>
 				<a href="experience.html">Experience</a>
@@ -19,10 +19,18 @@
 				<!-- <a href="blog.html">Blog</a> -->
 				<a href="contact.html">Contact</a>
 			</div>
+			<div class="sidemenu" id="sidemenu">
+				<a class="close" id="close" onclick="closeSide()">x</a>
+				<a id="active" href="index.html">Home</a>
+				<a href="experience.html">Experience</a>
+				<a href="school.html">School</a>
+				<!-- <a href="blog.html">Blog</a> -->
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
 
-		</div>
-		<div class="bottom" id="bottom">
-		</div>
+		<div class="bottom" id="bottom"></div>
+
 	</div>
 
 	<div class="home">
@@ -83,28 +91,12 @@
 		var x = document.getElementById("demo");
 		x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
 
+		function openSide() {
+			document.getElementById("sidemenu").style.width = "100%";
+		}
 
-		function myFunction() {
-			var x = document.getElementById("menu");
-			if (x.style.display === "block") {
-				x.style.display = "none";
-			} else {
-			x.style.display = "block";
-			}
-
-			var r = document.getElementById("rect");
-			if (r.className === "rect") {
-				r.className += " responsive";
-			} else {
-				r.className = "rect";
-			}
-
-			var t = document.getElementById("top");
-			if (t.className === "top") {
-				t.className += " responsive";
-			} else {
-				t.className = "top";
-			}
+		function closeSide() {
+			document.getElementById("sidemenu").style.width = "0px";
 		}
 	</script>
 

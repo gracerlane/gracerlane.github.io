@@ -95,7 +95,6 @@ body {
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #fff;
-		/* background: rgb(255, 255, 255, 0); */
 	}
 
 	.home .left {
@@ -112,7 +111,6 @@ body {
 		font-size: 40px;
 		padding: 0;
 		margin: 25px 20px 0 25px;
-		float: inline-start;
 	}
 
 	.rect h2 {
@@ -120,7 +118,6 @@ body {
 		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 25px;
-		float: inline-start;
 	}
 
 	.left #divider {
@@ -130,7 +127,6 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 0px -5px 25px;
-		float: inline-start;
 	}
 
 	.row {
@@ -169,7 +165,7 @@ body {
 		width: 50%;
 		left: 0;
 		overflow: hidden;
-		float: left;
+		/* float: left; */
 	}
 
 	.self {
@@ -567,7 +563,6 @@ body {
 		font-size: 40px;
 		padding: 0;
 		margin: 25px 20px 0 25px;
-		float: inline-start;
 	}
 
 	.rect h2 {
@@ -575,7 +570,6 @@ body {
 		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 25px;
-		float: inline-start;
 	}
 
 	.left #divider {
@@ -585,7 +579,6 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 0px -5px 25px;
-		float: inline-start;
 	}
 
 	.row {
@@ -1030,7 +1023,7 @@ body {
 		font-size: 40px;
 		padding: 0;
 		margin: 25px 20px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.rect h2 {
@@ -1038,7 +1031,7 @@ body {
 		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.left #divider {
@@ -1048,7 +1041,7 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 0px -5px 25px;
-		float: inline-start;
+		
 	}
 
 	.row {
@@ -1485,7 +1478,7 @@ body {
 		font-size: 40px;
 		padding: 0;
 		margin: 25px 20px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.rect h2 {
@@ -1493,7 +1486,7 @@ body {
 		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.left #divider {
@@ -1503,7 +1496,7 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 0px -5px 25px;
-		float: inline-start;
+		
 	}
 
 	.row {
@@ -1940,7 +1933,7 @@ body {
 		font-size: 40px;
 		padding: 0;
 		margin: 25px 20px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.rect h2 {
@@ -1948,7 +1941,7 @@ body {
 		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 25px;
-		float: inline-start;
+		
 	}
 
 	.left #divider {
@@ -1958,7 +1951,7 @@ body {
 		height: 1px;
 		padding: 0;
 		margin: 5px 0px -5px 25px;
-		float: inline-start;
+		
 	}
 
 	.row {

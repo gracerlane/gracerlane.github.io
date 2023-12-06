@@ -11,19 +11,24 @@
 <body>
 	<div class="school">
 		<div class="top" id="top">
-			<div class="collapsemenu" id="collapsemenu" onclick="myFunction()">=</div>
+			<div class="open" id="open" onclick="openSide()">=</div>
 			<div class="menu" id="menu">
 				<a href="index.html">Home</a>
 				<a href="experience.html">Experience</a>
 				<a id="active" href="school.html">School</a>
-				<!-- <a href="blog.html">Blog</a> -->
 				<a href="contact.html">Contact</a>
 			</div>
-
+			<div class="sidemenu" id="sidemenu">
+				<a class="close" id="close" onclick="closeSide()">x</a>
+				<a href="index.html">Home</a>
+				<a href="experience.html">Experience</a>
+				<a id="active" href="school.html">School</a>
+				<a href="contact.html">Contact</a>
+			</div>
 		</div>
 
 		<div class="content">
-			<div class="shape left">
+			<div class="left">
 				<h1>Computer Science Courses</h1>
 
 				<h2>Programming and Problem Solving I</h2>
@@ -65,7 +70,7 @@
 
 			</div>
 
-			<div class="shape right">
+			<div class="right">
 				<h1>Business Courses</h1>
 
 				<h2>Business Statistics</h2>
@@ -85,14 +90,8 @@
 		</div>
 
 	</div>
+
 	<script>
-		// var w = window.innerWidth;
-		// var h = window.innerHeight;
-
-		// var x = document.getElementById("demo");
-		// x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-
-
 		function myFunction() {
 			var x = document.getElementById("menu");
 			if (x.style.display === "block") {

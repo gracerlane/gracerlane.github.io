@@ -25,8 +25,6 @@ body {
 		display: none;
 	}
 
-
-
 	.menu {
 		position: absolute;
 		top: 50px;
@@ -473,7 +471,7 @@ body {
 	.self {
 		margin: 0vw 0px 0 4vw;
 		position: absolute;
-		height: 34vw;
+		height: 32vw;
 		width: auto;
 		bottom: 0;
 	}
@@ -1406,14 +1404,15 @@ body {
 	.self {
 		margin: 0vw 0px 0 3vw;
 		position: absolute;
-		height: 38vw;
+		height: 37vw;
 		width: auto;
 		bottom: 0;
 	}
 
 	.bottom {
+		background-color: #000000;
 		width: 100%;
-		height: 180px;
+		height: 175px;
 		float: left;
 	}
 
@@ -1570,7 +1569,7 @@ body {
 	.top {
 		background-color: #852020;
 		width: 100%;
-		height: 39vw;
+		height: 38.5vw;
 		text-align: center;
 		float: left;
 	}
@@ -1877,12 +1876,13 @@ body {
 
 }
 
+/* dark teal */
 @media (max-width: 875px) {
 	/* home */
 	.top {
-		background-color: #989393;
+		background-color: #0a4343;
 		width: 100%;
-		height: 41vw;
+		height: 43vw;
 		text-align: center;
 		float: left;
 	}
@@ -1897,635 +1897,10 @@ body {
 
 	.menu {
 		position: absolute;
-		top: 50px;
-		left: 15vw;
-		width: 70vw;
-		line-height: 50px;
-		border-radius: 15px;
-		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #ffffff;
-		overflow: hidden;
-		float: left;
-		display: block;
-	}
-
-	#active {
-		font-weight: bold;
-	}
-
-	.menu a {
-		position: relative;
-		cursor: pointer;
-		padding: 0px 5px 4px 5px;
-		margin: 0 15px;
-		text-decoration: none;
-		color: #000000;
-		font-size: 25px;
-	}
-
-	.menu a::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 0;
-		height: 3px;
-		background-color: #aaaaaa;
-		transition: .5s;
-		font-weight: bold;
-	}
-
-	.menu a:hover::before {
-		width: 100%;
-	}
-
-	.menu a:hover {
-		color: #aaaaaa;
-	}
-
-	.home .rect {
-		overflow: hidden;
-		float: left;
-		position: absolute;
-		top: 140px;
-		left: 15vw;
-		width: 70vw;
-		height: auto;
-		border-radius: 15px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-	}
-
-	.home .left {
-		float: left;
-		height: 100%;
-		width: 50%;
-		left: 0;
-		border: 0;
-	}
-
-	.rect h1 {
-		font-family: Arial Narrow, sans-serif;
-		color: #909090;
-		font-size: 30px;
-		padding: 0;
-		margin: 25px 20px 0 25px;
-	}
-
-	.rect h2 {
-		color: #000000;
-		font-size: 4.7vw;
-		padding: 0;
-		margin: 0 0px 0 25px;
-	}
-
-	.left #divider {
-		background-color: inherit;
-		border: none;
-		border-top: 5px dotted #dfdfdf;
-		height: 1px;
-		padding: 0;
-		margin: 5px 0px 5px 25px;
-	}
-
-	.row {
-		float: left;
-		width: 100%;
-		margin: 0vw 0 10px 0;
-	}
-
-	.icon {
-		float: left;
-		height: 3vw;
-		width: auto;
-		margin: 0 20px 0 30px;
-	}
-
-	.row a {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2.5vw;
-	}
-
-	.row p {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2.5vw;
-	}
-
-	.home .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		overflow: hidden;
-	}
-
-	.self {
-		margin: 0vw 0px 0 2vw;
-		position: absolute;
-		height: 39vw;
-		width: auto;
-		bottom: 0;
-	}
-
-	.bottom {
-		background-color: #000000;
-		width: 100%;
-		height: 150px;
-		float: left;
-	}
-
-	.home .content {
-		margin: 0vw 16vw 100px 16vw;
-		float: left;
-	}
-
-	.content p {
-		color: black;
-		font-size: 25px;
-		float: left;
-	}
-	/* home */
-
-
-
-
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-
-	.experience .bottom {
-		height: 0vw;
-	}
-
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 1.5vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
-	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 20vh 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
-	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
-		text-decoration: none;
-	}
-
-	.school h2 {
-		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
-		text-decoration: none;
-	}
-
-	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-	/* school */
-
-
-
-
-	/* contact */
-	.contact .top {
-		width: 0;
-		height: 0;
-	}
-
-	.contact .bottom {
-		display: none;
-	}
-	
-	.contact .content {
-		position: absolute;
-		float: left;
-		top: 10vw;
+		top: 30px;
 		left: 10vw;
 		width: 80vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-	}
-
-	.contact iframe {
-		width: 100%;
-		height: 1000px;
-	}
-	/* contact */
-
-}
-
-@media (max-width: 795px) {
-	/* home */
-	.top {
-		background-color: #c64545;
-		width: 100%;
-		height: 50vw;
-		text-align: center;
-		float: left;
-	}
-
-	.sidemenu {
-		display: none;
-	}
-
-	.open {
-		display: none;
-	}
-
-	.menu {
-		position: absolute;
-		top: 50px;
-		left: 15vw;
-		width: 70vw;
-		line-height: 50px;
-		border-radius: 15px;
-		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #ffffff;
-		overflow: hidden;
-		float: left;
-		display: block;
-	}
-
-	#active {
-		font-weight: bold;
-	}
-
-	.menu a {
-		position: relative;
-		cursor: pointer;
-		padding: 0px 5px 4px 5px;
-		margin: 0 15px;
-		text-decoration: none;
-		color: #000000;
-		font-size: 20px;
-	}
-
-	.menu a::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 0;
-		height: 3px;
-		background-color: #aaaaaa;
-		transition: .5s;
-		font-weight: bold;
-	}
-
-	.menu a:hover::before {
-		width: 100%;
-	}
-
-	.menu a:hover {
-		color: #aaaaaa;
-	}
-
-	.home .rect {
-		overflow: hidden;
-		float: left;
-		position: absolute;
-		top: 140px;
-		left: 15vw;
-		width: 70vw;
-		height: auto;
-		border-radius: 15px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-	}
-
-	.home .left {
-		float: left;
-		height: 100%;
-		width: 50%;
-		left: 0;
-		border: 0;
-	}
-
-	.rect h1 {
-		font-family: Arial Narrow, sans-serif;
-		color: #909090;
-		font-size: 30px;
-		padding: 0;
-		margin: 20px 20px 0 20px;
-	}
-
-	.rect h2 {
-		color: #000000;
-		font-size: 4.8vw;
-		padding: 0;
-		margin: 0 0px 0 20px;
-	}
-
-	.left #divider {
-		background-color: inherit;
-		border: none;
-		border-top: 5px dotted #dfdfdf;
-		height: 1px;
-		padding: 0;
-		margin: 5px 0px 5px 20px;
-	}
-
-	.row {
-		float: left;
-		width: 100%;
-		margin: 0vw 0 10px 0;
-	}
-
-	.icon {
-		float: left;
-		height: 3vw;
-		width: auto;
-		margin: 0 15px 0 25px;
-	}
-
-	.row a {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2.5vw;
-	}
-
-	.row p {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2.5vw;
-	}
-
-	.home .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		overflow: hidden;
-	}
-
-	.self {
-		margin: 0vw 0px 0 2vw;
-		position: absolute;
-		height: 39vw;
-		width: auto;
-		bottom: 0;
-	}
-
-	.bottom {
-		background-color: #000000;
-		width: 100%;
-		height: 80px;
-		float: left;
-	}
-
-	.home .content {
-		margin: 0vw 16vw 100px 16vw;
-		float: left;
-	}
-
-	.content p {
-		color: black;
-		font-size: 20px;
-		float: left;
-		margin: 3vw 0vw 0vw 0vw;
-	}
-	/* home */
-
-
-
-
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-
-	.experience .bottom {
-		height: 0vw;
-	}
-
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 1.5vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
-	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 20vh 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
-	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
-		text-decoration: none;
-	}
-
-	.school h2 {
-		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
-		text-decoration: none;
-	}
-
-	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-	/* school */
-
-
-
-
-	/* contact */
-	.contact .top {
-		width: 0;
-		height: 0;
-	}
-
-	.contact .bottom {
-		display: none;
-	}
-	
-	.contact .content {
-		position: absolute;
-		float: left;
-		top: 10vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-	}
-
-	.contact iframe {
-		width: 100%;
-		height: 1000px;
-	}
-	/* contact */
-
-}
-
-@media (max-width: 760px) {
-	/* home */
-	.top {
-		background-color: #3b0d0d;
-		width: 100%;
-		height: 50vw;
-		text-align: center;
-		float: left;
-	}
-
-	.sidemenu {
-		display: none;
-	}
-
-	.open {
-		display: none;
-	}
-
-	.menu {
-		position: absolute;
-		top: 40px;
-		left: 15vw;
-		width: 70vw;
-		line-height: 50px;
+		line-height: 40px;
 		border-radius: 15px;
 		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #ffffff;
@@ -2572,9 +1947,9 @@ body {
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 120px;
-		left: 15vw;
-		width: 70vw;
+		top: 100px;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2592,16 +1967,16 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 4vw;
 		padding: 0;
-		margin: 20px 20px 0 20px;
+		margin: 15px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 4.7vw;
+		font-size: 5vw;
 		padding: 0;
-		margin: 0 0px 0 20px;
+		margin: 0 0px 0 15px;
 	}
 
 	.left #divider {
@@ -2610,20 +1985,20 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 0px 5px 20px;
+		margin: 5px 0px 5px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 15px 0;
+		margin: 0vw 0 8px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 3vw;
+		height: 3.5vw;
 		width: auto;
-		margin: 0 15px 0 25px;
+		margin: 0 10px 0 20px;
 	}
 
 	.row a {
@@ -2632,7 +2007,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.row p {
@@ -2641,7 +2016,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.home .right {
@@ -2652,9 +2027,9 @@ body {
 	}
 
 	.self {
-		margin: 0vw 0px 0 2vw;
+		margin: 0vw 0px 0 4vw;
 		position: absolute;
-		height: 39vw;
+		height: 41vw;
 		width: auto;
 		bottom: 0;
 	}
@@ -2662,18 +2037,18 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 100px;
+		height: 99px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 0vw 16vw 100px 16vw;
+		margin: 0vw 13vw 100px 13vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 20px;
+		font-size: 22px;
 		float: left;
 		margin: 3vw 0vw 0vw 0vw;
 	}
@@ -2815,12 +2190,13 @@ body {
 
 }
 
-@media (max-width: 670px) {
+/* blue */
+@media (max-width: 795px) {
 	/* home */
 	.top {
-		background-color: #b36363;
+		background-color: #86caca;
 		width: 100%;
-		height: 45vw;
+		height: 44vw;
 		text-align: center;
 		float: left;
 	}
@@ -2835,10 +2211,10 @@ body {
 
 	.menu {
 		position: absolute;
-		top: 40px;
-		left: 15vw;
-		width: 70vw;
-		line-height: 50px;
+		top: 30px;
+		left: 10vw;
+		width: 80vw;
+		line-height: 40px;
 		border-radius: 15px;
 		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #ffffff;
@@ -2855,7 +2231,7 @@ body {
 		position: relative;
 		cursor: pointer;
 		padding: 0px 5px 4px 5px;
-		margin: 0 5px;
+		margin: 0 10px;
 		text-decoration: none;
 		color: #000000;
 		font-size: 20px;
@@ -2885,9 +2261,9 @@ body {
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 120px;
-		left: 15vw;
-		width: 70vw;
+		top: 100px;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2912,7 +2288,7 @@ body {
 
 	.rect h2 {
 		color: #000000;
-		font-size: 4.7vw;
+		font-size: 5vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -2934,7 +2310,7 @@ body {
 
 	.icon {
 		float: left;
-		height: 3vw;
+		height: 3.5vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -2945,7 +2321,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.row p {
@@ -2954,7 +2330,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.home .right {
@@ -2965,9 +2341,9 @@ body {
 	}
 
 	.self {
-		margin: 0vw 0px 0 2vw;
+		margin: 0vw 0px 0 4vw;
 		position: absolute;
-		height: 39vw;
+		height: 41vw;
 		width: auto;
 		bottom: 0;
 	}
@@ -2975,18 +2351,959 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 100px;
+		height: 88px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 0vw 16vw 100px 16vw;
+		margin: 0vw 13vw 100px 13vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
+		font-size: 18px;
+		float: left;
+		margin: 3vw 0vw 0vw 0vw;
+	}
+	/* home */
+
+
+
+
+	/* experience */
+	.experience .top {
+		height: 0vw;
+	}
+
+	.experience .bottom {
+		height: 0vw;
+	}
+
+	.experience .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 17vw;
+		width: 66vw;
+		height: auto;
+		background-color: #884949;
+		background: rgb(255, 255, 255, 0);
+		padding: 0vh 0vw 10vw 0vw;
+	}
+
+	.experience h1 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 2vw;
+		text-decoration: none;
+	}
+
+	.experience h2 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 1.6vw;
+		text-decoration: none;
+	}
+
+	.experience ul {
+		margin: .5vw 0vw 2.5vw -1vw;
+	}
+
+	.experience li {
+		margin: 0vh 0vw .5vw 0vw;
+		color: black;
+		font-family: sans-serif;
+		font-size: 1.5vw;
+		text-decoration: none;
+	}
+	/* experience */
+
+
+
+	/* school */
+	.school .top {
+		width: 0;
+		height: 0;
+	}
+
+	.school .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 16vw;
+		width: 68vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+		padding: 0 0 20vh 0;
+	}
+
+	.content .left {
+		height: 100%;
+		width: 49.8%;
+		left: 0;
+		float: left;
+		border-right: #000000;
+		border-right-width: .1vw;
+		border-right-style: solid;
+	}
+
+	.content .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		float: left;
+		margin: 0 0 0 -.5vw;
+	}
+
+	.school h1 {
+		margin: 0vw 0vw .4vw 1vw;
+		font-size: 2.3vw;
+		text-decoration: none;
+	}
+
+	.school h2 {
+		margin: 0vw 1vw .2vw 1vw;
+		font-size: 1.7vw;
+		text-decoration: none;
+	}
+
+	.school p {
+		margin: 0vw 2vw 2vw 1vw;
+		font-size: 1.3vw;
+		text-decoration: none;
+	}
+	/* school */
+
+
+
+
+	/* contact */
+	.contact .top {
+		width: 0;
+		height: 0;
+	}
+
+	.contact .bottom {
+		display: none;
+	}
+	
+	.contact .content {
+		position: absolute;
+		float: left;
+		top: 10vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+	}
+
+	.contact iframe {
+		width: 100%;
+		height: 1000px;
+	}
+	/* contact */
+
+}
+
+/* minty greeny */
+@media (max-width: 750px) {
+	/* home */
+	.top {
+		background-color: #d1ded3;
+		width: 100%;
+		height: 45vw;
+		text-align: center;
+		float: left;
+	}
+
+	.sidemenu {
+		display: none;
+	}
+
+	.open {
+		display: none;
+	}
+
+	.menu {
+		position: absolute;
+		top: 30px;
+		left: 10vw;
+		width: 80vw;
+		line-height: 40px;
+		border-radius: 15px;
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #ffffff;
+		overflow: hidden;
+		float: left;
+		display: block;
+	}
+
+	#active {
+		font-weight: bold;
+	}
+
+	.menu a {
+		position: relative;
+		cursor: pointer;
+		padding: 0px 5px 4px 5px;
+		margin: 0 10px;
+		text-decoration: none;
+		color: #000000;
 		font-size: 20px;
+	}
+
+	.menu a::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 3px;
+		background-color: #aaaaaa;
+		transition: .5s;
+		font-weight: bold;
+	}
+
+	.menu a:hover::before {
+		width: 100%;
+	}
+
+	.menu a:hover {
+		color: #aaaaaa;
+	}
+
+	.home .rect {
+		overflow: hidden;
+		float: left;
+		position: absolute;
+		top: 100px;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #fff;
+	}
+
+	.home .left {
+		float: left;
+		height: 100%;
+		width: 50%;
+		left: 0;
+		border: 0;
+	}
+
+	.rect h1 {
+		font-family: Arial Narrow, sans-serif;
+		color: #909090;
+		font-size: 25px;
+		padding: 0;
+		margin: 15px 20px 0 15px;
+	}
+
+	.rect h2 {
+		color: #000000;
+		font-size: 5vw;
+		padding: 0;
+		margin: 0 0px 0 15px;
+	}
+
+	.left #divider {
+		background-color: inherit;
+		border: none;
+		border-top: 5px dotted #dfdfdf;
+		height: 1px;
+		padding: 0;
+		margin: 5px 0px 5px 15px;
+	}
+
+	.row {
+		float: left;
+		width: 100%;
+		margin: 0vw 0 8px 0;
+	}
+
+	.icon {
+		float: left;
+		height: 3.5vw;
+		width: auto;
+		margin: 0 10px 0 20px;
+	}
+
+	.row a {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.row p {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.home .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		overflow: hidden;
+	}
+
+	.self {
+		margin: 0vw 0px 0 4vw;
+		position: absolute;
+		height: 41vw;
+		width: auto;
+		bottom: 0;
+	}
+
+	.bottom {
+		background-color: #000000;
+		width: 100%;
+		height: 88px;
+		float: left;
+	}
+
+	.home .content {
+		margin: 0vw 13vw 100px 13vw;
+		float: left;
+	}
+
+	.content p {
+		color: black;
+		font-size: 18px;
+		float: left;
+		margin: 3vw 0vw 0vw 0vw;
+	}
+	/* home */
+
+
+
+
+	/* experience */
+	.experience .top {
+		height: 0vw;
+	}
+
+	.experience .bottom {
+		height: 0vw;
+	}
+
+	.experience .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 17vw;
+		width: 66vw;
+		height: auto;
+		background-color: #884949;
+		background: rgb(255, 255, 255, 0);
+		padding: 0vh 0vw 10vw 0vw;
+	}
+
+	.experience h1 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 2vw;
+		text-decoration: none;
+	}
+
+	.experience h2 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 1.6vw;
+		text-decoration: none;
+	}
+
+	.experience ul {
+		margin: .5vw 0vw 2.5vw -1vw;
+	}
+
+	.experience li {
+		margin: 0vh 0vw .5vw 0vw;
+		color: black;
+		font-family: sans-serif;
+		font-size: 1.5vw;
+		text-decoration: none;
+	}
+	/* experience */
+
+
+
+	/* school */
+	.school .top {
+		width: 0;
+		height: 0;
+	}
+
+	.school .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 16vw;
+		width: 68vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+		padding: 0 0 20vh 0;
+	}
+
+	.content .left {
+		height: 100%;
+		width: 49.8%;
+		left: 0;
+		float: left;
+		border-right: #000000;
+		border-right-width: .1vw;
+		border-right-style: solid;
+	}
+
+	.content .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		float: left;
+		margin: 0 0 0 -.5vw;
+	}
+
+	.school h1 {
+		margin: 0vw 0vw .4vw 1vw;
+		font-size: 2.3vw;
+		text-decoration: none;
+	}
+
+	.school h2 {
+		margin: 0vw 1vw .2vw 1vw;
+		font-size: 1.7vw;
+		text-decoration: none;
+	}
+
+	.school p {
+		margin: 0vw 2vw 2vw 1vw;
+		font-size: 1.3vw;
+		text-decoration: none;
+	}
+	/* school */
+
+
+
+
+	/* contact */
+	.contact .top {
+		width: 0;
+		height: 0;
+	}
+
+	.contact .bottom {
+		display: none;
+	}
+	
+	.contact .content {
+		position: absolute;
+		float: left;
+		top: 10vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+	}
+
+	.contact iframe {
+		width: 100%;
+		height: 1000px;
+	}
+	/* contact */
+
+}
+
+/* tanish pink */
+@media (max-width: 700px) {
+	/* home */
+	.top {
+		background-color: #ded1d1;
+		width: 100%;
+		height: 45vw;
+		text-align: center;
+		float: left;
+	}
+
+	.sidemenu {
+		display: none;
+	}
+
+	.open {
+		display: none;
+	}
+
+	.menu {
+		position: absolute;
+		top: 30px;
+		left: 10vw;
+		width: 80vw;
+		line-height: 40px;
+		border-radius: 15px;
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #ffffff;
+		overflow: hidden;
+		float: left;
+		display: block;
+	}
+
+	#active {
+		font-weight: bold;
+	}
+
+	.menu a {
+		position: relative;
+		cursor: pointer;
+		padding: 0px 5px 4px 5px;
+		margin: 0 10px;
+		text-decoration: none;
+		color: #000000;
+		font-size: 20px;
+	}
+
+	.menu a::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 3px;
+		background-color: #aaaaaa;
+		transition: .5s;
+		font-weight: bold;
+	}
+
+	.menu a:hover::before {
+		width: 100%;
+	}
+
+	.menu a:hover {
+		color: #aaaaaa;
+	}
+
+	.home .rect {
+		overflow: hidden;
+		float: left;
+		position: absolute;
+		top: 100px;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #fff;
+	}
+
+	.home .left {
+		float: left;
+		height: 100%;
+		width: 50%;
+		left: 0;
+		border: 0;
+	}
+
+	.rect h1 {
+		font-family: Arial Narrow, sans-serif;
+		color: #909090;
+		font-size: 25px;
+		padding: 0;
+		margin: 15px 20px 0 15px;
+	}
+
+	.rect h2 {
+		color: #000000;
+		font-size: 4.9vw;
+		padding: 0;
+		margin: 0 0px 0 15px;
+	}
+
+	.left #divider {
+		background-color: inherit;
+		border: none;
+		border-top: 5px dotted #dfdfdf;
+		height: 1px;
+		padding: 0;
+		margin: 5px 0px 5px 15px;
+	}
+
+	.row {
+		float: left;
+		width: 100%;
+		margin: 0vw 0 8px 0;
+	}
+
+	.icon {
+		float: left;
+		height: 3.5vw;
+		width: auto;
+		margin: 0 10px 0 20px;
+	}
+
+	.row a {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.row p {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.home .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		overflow: hidden;
+	}
+
+	.self {
+		margin: 0vw 0px 0 3vw;
+		position: absolute;
+		height: 42vw;
+		width: auto;
+		bottom: 0;
+	}
+
+	.bottom {
+		background-color: #000000;
+		width: 100%;
+		height: 90px;
+		float: left;
+	}
+
+	.home .content {
+		margin: 0vw 13vw 100px 13vw;
+		float: left;
+	}
+
+	.content p {
+		color: black;
+		font-size: 18px;
+		float: left;
+		margin: 3vw 0vw 0vw 0vw;
+	}
+	/* home */
+
+
+
+
+	/* experience */
+	.experience .top {
+		height: 0vw;
+	}
+
+	.experience .bottom {
+		height: 0vw;
+	}
+
+	.experience .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 17vw;
+		width: 66vw;
+		height: auto;
+		background-color: #884949;
+		background: rgb(255, 255, 255, 0);
+		padding: 0vh 0vw 10vw 0vw;
+	}
+
+	.experience h1 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 2vw;
+		text-decoration: none;
+	}
+
+	.experience h2 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 1.6vw;
+		text-decoration: none;
+	}
+
+	.experience ul {
+		margin: .5vw 0vw 2.5vw -1vw;
+	}
+
+	.experience li {
+		margin: 0vh 0vw .5vw 0vw;
+		color: black;
+		font-family: sans-serif;
+		font-size: 1.5vw;
+		text-decoration: none;
+	}
+	/* experience */
+
+
+
+	/* school */
+	.school .top {
+		width: 0;
+		height: 0;
+	}
+
+	.school .content {
+		float: left;
+		position: absolute;
+		top: 10vw;
+		left: 16vw;
+		width: 68vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+		padding: 0 0 20vh 0;
+	}
+
+	.content .left {
+		height: 100%;
+		width: 49.8%;
+		left: 0;
+		float: left;
+		border-right: #000000;
+		border-right-width: .1vw;
+		border-right-style: solid;
+	}
+
+	.content .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		float: left;
+		margin: 0 0 0 -.5vw;
+	}
+
+	.school h1 {
+		margin: 0vw 0vw .4vw 1vw;
+		font-size: 2.3vw;
+		text-decoration: none;
+	}
+
+	.school h2 {
+		margin: 0vw 1vw .2vw 1vw;
+		font-size: 1.7vw;
+		text-decoration: none;
+	}
+
+	.school p {
+		margin: 0vw 2vw 2vw 1vw;
+		font-size: 1.3vw;
+		text-decoration: none;
+	}
+	/* school */
+
+
+
+
+	/* contact */
+	.contact .top {
+		width: 0;
+		height: 0;
+	}
+
+	.contact .bottom {
+		display: none;
+	}
+	
+	.contact .content {
+		position: absolute;
+		float: left;
+		top: 10vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+	}
+
+	.contact iframe {
+		width: 100%;
+		height: 1000px;
+	}
+	/* contact */
+
+}
+
+@media (max-width: 660px) {
+	/* home */
+	.top {
+		background-color: #394fdb;
+		width: 100%;
+		height: 46.5vw;
+		text-align: center;
+		float: left;
+	}
+
+	.sidemenu {
+		display: none;
+	}
+
+	.open {
+		display: none;
+	}
+
+	.menu {
+		position: absolute;
+		top: 30px;
+		left: 10vw;
+		width: 80vw;
+		line-height: 40px;
+		border-radius: 15px;
+		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #ffffff;
+		overflow: hidden;
+		float: left;
+		display: block;
+	}
+
+	#active {
+		font-weight: bold;
+	}
+
+	.menu a {
+		position: relative;
+		cursor: pointer;
+		padding: 0px 5px 4px 5px;
+		margin: 0 10px;
+		text-decoration: none;
+		color: #000000;
+		font-size: 18px;
+	}
+
+	.menu a::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 3px;
+		background-color: #aaaaaa;
+		transition: .5s;
+		font-weight: bold;
+	}
+
+	.menu a:hover::before {
+		width: 100%;
+	}
+
+	.menu a:hover {
+		color: #aaaaaa;
+	}
+
+	.home .rect {
+		overflow: hidden;
+		float: left;
+		position: absolute;
+		top: 100px;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #fff;
+	}
+
+	.home .left {
+		float: left;
+		height: 100%;
+		width: 50%;
+		left: 0;
+		border: 0;
+	}
+
+	.rect h1 {
+		font-family: Arial Narrow, sans-serif;
+		color: #909090;
+		font-size: 25px;
+		padding: 0;
+		margin: 15px 20px 0 15px;
+	}
+
+	.rect h2 {
+		color: #000000;
+		font-size: 4.9vw;
+		padding: 0;
+		margin: 0 0px 0 15px;
+	}
+
+	.left #divider {
+		background-color: inherit;
+		border: none;
+		border-top: 5px dotted #dfdfdf;
+		height: 1px;
+		padding: 0;
+		margin: 5px 0px 5px 15px;
+	}
+
+	.row {
+		float: left;
+		width: 100%;
+		margin: 0vw 0 8px 0;
+	}
+
+	.icon {
+		float: left;
+		height: 3.5vw;
+		width: auto;
+		margin: 0 10px 0 20px;
+	}
+
+	.row a {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.row p {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 3vw;
+	}
+
+	.home .right {
+		height: 100%;
+		width: 50%;
+		left: 0;
+		overflow: hidden;
+	}
+
+	.self {
+		margin: 0vw 0px 0 3vw;
+		position: absolute;
+		height: 43vw;
+		width: auto;
+		bottom: 0;
+	}
+
+	.bottom {
+		background-color: #000000;
+		width: 100%;
+		height: 90px;
+		float: left;
+	}
+
+	.home .content {
+		margin: 0vw 13vw 100px 13vw;
+		float: left;
+	}
+
+	.content p {
+		color: black;
+		font-size: 18px;
 		float: left;
 		margin: 3vw 0vw 0vw 0vw;
 	}
@@ -3131,9 +3448,9 @@ body {
 @media (max-width: 620px) {
 	/* home */
 	.top {
-		background-color: #d08a8a;
+		background-color: #a39090;
 		width: 100%;
-		height: 45vw;
+		height: 47vw;
 		text-align: center;
 		float: left;
 	}
@@ -3149,8 +3466,8 @@ body {
 	.menu {
 		position: absolute;
 		top: 30px;
-		left: 15vw;
-		width: 70vw;
+		left: 10vw;
+		width: 80vw;
 		line-height: 40px;
 		border-radius: 15px;
 		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3171,7 +3488,7 @@ body {
 		margin: 0 10px;
 		text-decoration: none;
 		color: #000000;
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.menu a::before {
@@ -3199,8 +3516,8 @@ body {
 		float: left;
 		position: absolute;
 		top: 100px;
-		left: 15vw;
-		width: 70vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3218,14 +3535,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 20px;
+		font-size: 25px;
 		padding: 0;
 		margin: 15px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 4.7vw;
+		font-size: 4.9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -3247,7 +3564,7 @@ body {
 
 	.icon {
 		float: left;
-		height: 3vw;
+		height: 3.5vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -3258,7 +3575,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.row p {
@@ -3267,7 +3584,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.home .right {
@@ -3278,9 +3595,9 @@ body {
 	}
 
 	.self {
-		margin: 0vw 0px 0 2vw;
+		margin: 0vw 0px 0 3vw;
 		position: absolute;
-		height: 39vw;
+		height: 44vw;
 		width: auto;
 		bottom: 0;
 	}
@@ -3288,18 +3605,18 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 80px;
+		height: 90px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 0vw 16vw 100px 16vw;
+		margin: 0vw 13vw 100px 13vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 15px;
+		font-size: 18px;
 		float: left;
 		margin: 3vw 0vw 0vw 0vw;
 	}
@@ -3441,12 +3758,13 @@ body {
 
 }
 
+/* yellow */
 @media (max-width: 590px) {
 	/* home */
 	.top {
-		background-color: #4a2626;
+		background-color: #a3b363;
 		width: 100%;
-		height: 46vw;
+		height: 59vw;
 		text-align: center;
 		float: left;
 	}
@@ -3462,8 +3780,8 @@ body {
 	.menu {
 		position: absolute;
 		top: 30px;
-		left: 15vw;
-		width: 70vw;
+		left: 10vw;
+		width: 80vw;
 		line-height: 40px;
 		border-radius: 15px;
 		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3481,10 +3799,10 @@ body {
 		position: relative;
 		cursor: pointer;
 		padding: 0px 5px 4px 5px;
-		margin: 0 10px;
+		margin: 0 3px;
 		text-decoration: none;
 		color: #000000;
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.menu a::before {
@@ -3512,8 +3830,8 @@ body {
 		float: left;
 		position: absolute;
 		top: 100px;
-		left: 15vw;
-		width: 70vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -3523,7 +3841,7 @@ body {
 	.home .left {
 		float: left;
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		border: 0;
 	}
@@ -3531,14 +3849,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 20px;
+		font-size: 6vw;
 		padding: 0;
 		margin: 15px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 4.7vw;
+		font-size: 8vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -3549,18 +3867,18 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 0px 5px 15px;
+		margin: 5px 15px 5px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 8px 0;
+		margin: 0vw 0 10px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 3vw;
+		height: 5vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -3571,7 +3889,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 4.5vw;
 	}
 
 	.row p {
@@ -3580,12 +3898,12 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 2.5vw;
+		font-size: 4.5vw;
 	}
 
 	.home .right {
 		height: 100%;
-		width: 50%;
+		width: 0%;
 		left: 0;
 		overflow: hidden;
 	}
@@ -3593,7 +3911,7 @@ body {
 	.self {
 		margin: 0vw 0px 0 2vw;
 		position: absolute;
-		height: 39vw;
+		height: 0;
 		width: auto;
 		bottom: 0;
 	}
@@ -3601,20 +3919,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 80px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 0vw 16vw 100px 16vw;
+		margin: 2vw 13vw 100px 13vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 15px;
+		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 4vw 0vw 0vw 0vw;
 	}
 	/* home */
 
@@ -3757,9 +4075,9 @@ body {
 @media (max-width: 570px) {
 	/* home */
 	.top {
-		background-color: #b36363;
+		background-color: #b363a3;
 		width: 100%;
-		height: 60vw;
+		height: 59vw;
 		text-align: center;
 		float: left;
 	}
@@ -4070,9 +4388,9 @@ body {
 @media (max-width: 540px) {
 	/* home */
 	.top {
-		background-color: #564343;
+		background-color: #475643;
 		width: 100%;
-		height: 60vw;
+		height: 59vw;
 		text-align: center;
 		float: left;
 	}
@@ -4225,12 +4543,12 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 140px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
@@ -4238,7 +4556,7 @@ body {
 		color: black;
 		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -4249,17 +4567,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -4268,25 +4586,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -4295,16 +4613,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4312,17 +4629,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -4330,19 +4647,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -4381,7 +4698,7 @@ body {
 @media (max-width: 500px) {
 	/* home */
 	.top {
-		background-color: #564343;
+		background-color: #8fcb7e;
 		width: 100%;
 		height: 60vw;
 		text-align: center;
@@ -4536,12 +4853,12 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 140px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
@@ -4549,7 +4866,7 @@ body {
 		color: black;
 		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -4560,17 +4877,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -4579,25 +4896,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -4606,16 +4923,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4623,17 +4939,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -4641,19 +4957,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -4689,10 +5005,10 @@ body {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 470px) {
 	/* home */
 	.top {
-		background-color: #903434;
+		background-color: #7ea2cb;
 		width: 100%;
 		height: 61vw;
 		text-align: center;
@@ -4777,7 +5093,7 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 35px;
 		padding: 0;
 		margin: 15px 20px 0 15px;
 	}
@@ -4847,12 +5163,12 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 16vw 100px 16vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
@@ -4860,7 +5176,7 @@ body {
 		color: black;
 		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -4871,17 +5187,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -4890,25 +5206,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -4917,16 +5233,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4934,17 +5249,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -4952,19 +5267,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -5000,10 +5315,10 @@ body {
 
 }
 
-@media (max-width: 445px) {
+@media (max-width: 440px) {
 	/* home */
 	.top {
-		background-color: #5d5858;
+		background-color: #b8cb7e;
 		width: 100%;
 		height: 62vw;
 		text-align: center;
@@ -5088,9 +5403,9 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 35px;
 		padding: 0;
-		margin: 15px 20px 0 15px;
+		margin: 13px 20px 0 15px;
 	}
 
 	.rect h2 {
@@ -5158,20 +5473,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 18px;
+		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -5182,17 +5497,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -5201,25 +5516,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -5228,16 +5543,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -5245,17 +5559,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -5263,19 +5577,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -5311,10 +5625,320 @@ body {
 
 }
 
-@media (max-width: 415px) {
+@media (max-width: 400px) {
 	/* home */
 	.top {
-		background-color: #803232;
+		background-color: #c57ecb;
+		width: 100%;
+		height: 63vw;
+		text-align: center;
+		float: left;
+	}
+
+	.sidemenu {
+		display: block;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+
+	.sidemenu a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.sidemenu a:hover {
+		color: #f1f1f1;
+	}
+
+	.open {
+		font-size: 20px;
+		cursor: pointer;
+		/* background-color: #111; */
+		color: rgb(0, 0, 0);
+		padding: 10px 15px;
+		border: none;
+		border-radius: 100px;
+		cursor: pointer;
+		margin: 20px 20px 0 0;
+		float: right;
+		display: block;
+	}
+
+	.close {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		cursor: pointer;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.home .rect {
+		overflow: hidden;
+		float: left;
+		position: absolute;
+		top: 80px;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color: #fff;
+	}
+
+	.home .left {
+		float: left;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		border: 0;
+	}
+
+	.rect h1 {
+		font-family: Arial Narrow, sans-serif;
+		color: #909090;
+		font-size: 35px;
+		padding: 0;
+		margin: 13px 20px 0 15px;
+	}
+
+	.rect h2 {
+		color: #000000;
+		font-size: 9vw;
+		padding: 0;
+		margin: 0 0px 0 15px;
+	}
+
+	.left #divider {
+		background-color: inherit;
+		border: none;
+		border-top: 5px dotted #dfdfdf;
+		height: 1px;
+		padding: 0;
+		margin: 5px 15px 5px 15px;
+	}
+
+	.row {
+		float: left;
+		width: 100%;
+		margin: 0vw 0 10px 0;
+	}
+
+	.icon {
+		float: left;
+		height: 5vw;
+		width: auto;
+		margin: 0 10px 0 20px;
+	}
+
+	.row a {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 4.5vw;
+	}
+
+	.row p {
+		float: left;
+		font: inherit;
+		color: inherit;
+		text-decoration: none;
+		margin: 0 0 0 0;
+		font-size: 4.5vw;
+	}
+
+	.home .right {
+		height: 100%;
+		width: 0%;
+		left: 0;
+		overflow: hidden;
+	}
+
+	.self {
+		margin: 0vw 0px 0 2vw;
+		position: absolute;
+		height: 0;
+		width: auto;
+		bottom: 0;
+	}
+
+	.bottom {
+		background-color: #000000;
+		width: 100%;
+		height: 135px;
+		float: left;
+	}
+
+	.home .content {
+		margin: 5vw 12vw 100px 12vw;
+		float: left;
+	}
+
+	.content p {
+		color: black;
+		font-size: 20px;
+		float: left;
+		margin: 0vw 0vw 4vw 0vw;
+	}
+	/* home */
+
+
+
+
+	/* experience */
+	.experience .top {
+		height: 0vw;
+	}
+	
+	.experience .bottom {
+		height: 0vw;
+	}
+	
+	.experience .content {
+		float: left;
+		position: absolute;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background-color: #884949;
+		background: rgb(255, 255, 255, 0);
+		padding: 0vh 0vw 10vw 0vw;
+	}
+
+	.experience h1 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 4vw;
+		text-decoration: none;
+	}
+
+	.experience h2 {
+		margin: 0vh 0vw 0vh 0vw;
+		font-size: 3.5vw;
+		text-decoration: none;
+	}
+
+	.experience ul {
+		margin: .5vw 0vw 2.5vw -3vw;
+	}
+
+	.experience li {
+		margin: 0vh 0vw .5vw 0vw;
+		color: black;
+		font-family: sans-serif;
+		font-size: 3vw;
+		text-decoration: none;
+	}
+	/* experience */
+
+
+
+	/* school */
+	.school .top {
+		width: 100%;
+	}
+
+	.school .content {
+		float: left;
+		position: absolute;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+		padding: 0 0 20vh 0;
+	}
+
+	.content .left {
+		height: 100%;
+		width: 100%;
+		left: 0;
+		float: left;
+		border-right: #000000;
+		border-right-width: .1vw;
+		border-right-style: none;
+	}
+
+	.content .right {
+		height: 100%;
+		width: 100%;
+		left: 0;
+		float: left;
+		margin: 0 0 0 -.5vw;
+	}
+
+	.school h1 {
+		margin: 0vw 0vw .4vw 1vw;
+		font-size: 4.5vw;
+		text-decoration: none;
+	}
+
+	.school h2 {
+		margin: 0vw 1vw .2vw 1vw;
+		font-size: 3vw;
+		text-decoration: none;
+	}
+
+	.school p {
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
+		text-decoration: none;
+	}
+	/* school */
+
+
+
+
+	/* contact */
+	.contact .top {
+		width: 0;
+		height: 0;
+	}
+
+	.contact .bottom {
+		display: none;
+	}
+	
+	.contact .content {
+		position: absolute;
+		float: left;
+		top: 10vw;
+		left: 10vw;
+		width: 80vw;
+		height: auto;
+		background: rgb(255, 255, 255, 0);
+	}
+
+	.contact iframe {
+		width: 100%;
+		height: 1000px;
+	}
+	/* contact */
+
+}
+
+@media (max-width: 385px) {
+	/* home */
+	.top {
+		background-color: #cb8d7e;
 		width: 100%;
 		height: 64vw;
 		text-align: center;
@@ -5399,9 +6023,9 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 35px;
 		padding: 0;
-		margin: 15px 20px 0 15px;
+		margin: 13px 20px 0 15px;
 	}
 
 	.rect h2 {
@@ -5417,18 +6041,18 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 15px 5px 15px;
+		margin: 5px 15px 10px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 10px 0;
+		margin: 0vw 0 5px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 5vw;
+		height: 6vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -5439,7 +6063,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.row p {
@@ -5448,7 +6072,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.home .right {
@@ -5469,20 +6093,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 18px;
+		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -5493,17 +6117,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -5512,25 +6136,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -5539,16 +6163,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -5556,17 +6179,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -5574,19 +6197,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -5622,12 +6245,12 @@ body {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
 	/* home */
 	.top {
-		background-color: #eabdbd;
+		background-color: #772c19;
 		width: 100%;
-		height: 66vw;
+		height: 62vw;
 		text-align: center;
 		float: left;
 	}
@@ -5690,7 +6313,7 @@ body {
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 75px;
+		top: 80px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5710,14 +6333,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 25px;
 		padding: 0;
-		margin: 15px 20px 0 15px;
+		margin: 13px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 10vw;
+		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -5728,18 +6351,18 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 15px 5px 15px;
+		margin: 5px 15px 10px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 10px 0;
+		margin: 0vw 0 5px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 5vw;
+		height: 6vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -5750,7 +6373,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.row p {
@@ -5759,7 +6382,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.home .right {
@@ -5780,20 +6403,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 18px;
+		font-size: 16px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -5804,17 +6427,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -5823,25 +6446,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -5850,16 +6473,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -5867,17 +6489,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -5885,19 +6507,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -5933,12 +6555,12 @@ body {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 325px) {
 	/* home */
 	.top {
-		background-color: #380303;
+		background-color: #f0c7bd;
 		width: 100%;
-		height: 67vw;
+		height: 63vw;
 		text-align: center;
 		float: left;
 	}
@@ -6001,7 +6623,7 @@ body {
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 75px;
+		top: 80px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6021,14 +6643,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 25px;
 		padding: 0;
-		margin: 15px 20px 0 15px;
+		margin: 13px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 10vw;
+		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -6039,18 +6661,18 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 15px 5px 15px;
+		margin: 5px 15px 10px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 10px 0;
+		margin: 0vw 0 5px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 5vw;
+		height: 6vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -6061,7 +6683,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.row p {
@@ -6070,7 +6692,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.home .right {
@@ -6091,20 +6713,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 18px;
+		font-size: 16px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -6115,17 +6737,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -6134,25 +6756,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -6161,16 +6783,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -6178,17 +6799,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -6196,19 +6817,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -6244,12 +6865,12 @@ body {
 
 }
 
-@media (max-width: 335px) {
+@media (max-width: 300px) {
 	/* home */
 	.top {
-		background-color: #b95959;
+		background-color: #6d6664;
 		width: 100%;
-		height: 68vw;
+		height: 63vw;
 		text-align: center;
 		float: left;
 	}
@@ -6282,15 +6903,14 @@ body {
 	}
 
 	.open {
-		font-size: 20px;
+		font-size: 15px;
 		cursor: pointer;
-		/* background-color: #111; */
 		color: rgb(0, 0, 0);
-		padding: 10px 15px;
+		padding: 10px 0px;
 		border: none;
 		border-radius: 100px;
 		cursor: pointer;
-		margin: 20px 20px 0 0;
+		margin: 25px 20px 0 0;
 		float: right;
 		display: block;
 	}
@@ -6332,325 +6952,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
-		padding: 0;
-		margin: 15px 20px 0 15px;
-	}
-
-	.rect h2 {
-		color: #000000;
-		font-size: 10vw;
-		padding: 0;
-		margin: 0 0px 0 15px;
-	}
-
-	.left #divider {
-		background-color: inherit;
-		border: none;
-		border-top: 5px dotted #dfdfdf;
-		height: 1px;
-		padding: 0;
-		margin: 5px 15px 5px 15px;
-	}
-
-	.row {
-		float: left;
-		width: 100%;
-		margin: 0vw 0 10px 0;
-	}
-
-	.icon {
-		float: left;
-		height: 5vw;
-		width: auto;
-		margin: 0 10px 0 20px;
-	}
-
-	.row a {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 4.5vw;
-	}
-
-	.row p {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 4.5vw;
-	}
-
-	.home .right {
-		height: 100%;
-		width: 0%;
-		left: 0;
-		overflow: hidden;
-	}
-
-	.self {
-		margin: 0vw 0px 0 2vw;
-		position: absolute;
-		height: 0;
-		width: auto;
-		bottom: 0;
-	}
-
-	.bottom {
-		background-color: #000000;
-		width: 100%;
-		height: 130px;
-		float: left;
-	}
-
-	.home .content {
-		margin: 4vw 12vw 100px 12vw;
-		float: left;
-	}
-
-	.content p {
-		color: black;
-		font-size: 18px;
-		float: left;
-		margin: 3vw 0vw 0vw 0vw;
-	}
-	/* home */
-
-
-
-
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-
-	.experience .bottom {
-		height: 0vw;
-	}
-
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 1.5vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
-	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 20vh 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
-	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
-		text-decoration: none;
-	}
-
-	.school h2 {
-		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
-		text-decoration: none;
-	}
-
-	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-	/* school */
-
-
-
-
-	/* contact */
-	.contact .top {
-		width: 0;
-		height: 0;
-	}
-
-	.contact .bottom {
-		display: none;
-	}
-	
-	.contact .content {
-		position: absolute;
-		float: left;
-		top: 10vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-	}
-
-	.contact iframe {
-		width: 100%;
-		height: 1000px;
-	}
-	/* contact */
-
-}
-
-@media (max-width: 320px) {
-	/* home */
-	.top {
-		background-color: #514d4d;
-		width: 100%;
-		height: 69vw;
-		text-align: center;
-		float: left;
-	}
-
-	.sidemenu {
-		display: block;
-		height: 100%;
-		width: 0;
-		position: fixed;
-		z-index: 1;
-		top: 0;
-		left: 0;
-		background-color: #111;
-		overflow-x: hidden;
-		transition: 0.5s;
-		padding-top: 60px;
-	}
-
-	.sidemenu a {
-		padding: 8px 8px 8px 32px;
-		text-decoration: none;
 		font-size: 25px;
-		color: #818181;
-		display: block;
-		transition: 0.3s;
-	}
-
-	.sidemenu a:hover {
-		color: #f1f1f1;
-	}
-
-	.open {
-		font-size: 20px;
-		cursor: pointer;
-		/* background-color: #111; */
-		color: rgb(0, 0, 0);
-		padding: 10px 15px;
-		border: none;
-		border-radius: 100px;
-		cursor: pointer;
-		margin: 20px 20px 0 0;
-		float: right;
-		display: block;
-	}
-
-	.close {
-		position: absolute;
-		top: 0;
-		right: 25px;
-		font-size: 36px;
-		margin-left: 50px;
-		cursor: pointer;
-	}
-
-	.menu {
-		display: none;
-	}
-
-	.home .rect {
-		overflow: hidden;
-		float: left;
-		position: absolute;
-		top: 75px;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		border-radius: 15px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-	}
-
-	.home .left {
-		float: left;
-		height: 100%;
-		width: 100%;
-		left: 0;
-		border: 0;
-	}
-
-	.rect h1 {
-		font-family: Arial Narrow, sans-serif;
-		color: #909090;
-		font-size: 30px;
 		padding: 0;
-		margin: 15px 20px 0 15px;
+		margin: 13px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 10vw;
+		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -6661,18 +6970,18 @@ body {
 		border-top: 5px dotted #dfdfdf;
 		height: 1px;
 		padding: 0;
-		margin: 5px 15px 5px 15px;
+		margin: 5px 15px 10px 15px;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 10px 0;
+		margin: 0vw 0 5px 0;
 	}
 
 	.icon {
 		float: left;
-		height: 5vw;
+		height: 6vw;
 		width: auto;
 		margin: 0 10px 0 20px;
 	}
@@ -6683,7 +6992,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.row p {
@@ -6692,7 +7001,7 @@ body {
 		color: inherit;
 		text-decoration: none;
 		margin: 0 0 0 0;
-		font-size: 4.5vw;
+		font-size: 5.5vw;
 	}
 
 	.home .right {
@@ -6713,20 +7022,20 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 130px;
+		height: 135px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 4vw 12vw 100px 12vw;
+		margin: 5vw 12vw 100px 12vw;
 		float: left;
 	}
 
 	.content p {
 		color: black;
-		font-size: 18px;
+		font-size: 16px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 0vw 0vw 4vw 0vw;
 	}
 	/* home */
 
@@ -6737,17 +7046,17 @@ body {
 	.experience .top {
 		height: 0vw;
 	}
-
+	
 	.experience .bottom {
 		height: 0vw;
 	}
-
+	
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -6756,25 +7065,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -6783,16 +7092,15 @@ body {
 
 	/* school */
 	.school .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -6800,17 +7108,17 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
 		border-right: #000000;
 		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -6818,19 +7126,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -6865,4 +7173,3 @@ body {
 	/* contact */
 
 }
-

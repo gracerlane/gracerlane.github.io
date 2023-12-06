@@ -10,7 +10,7 @@ body {
 	/* home */
 	.top {
 		background-color: #fff;
-		background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb);
+		/* background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); */
 		width: 100%;
 		height: 35vw;
 		text-align: center;
@@ -304,7 +304,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -319,10 +319,11 @@ body {
 
 }
 
+/* purple */
 @media (max-width: 1330px) {
 	/* home */
 	.top {
-		background-color: #743939;
+		background-color: #533974;
 		width: 100%;
 		height: 35vw;
 		text-align: center;
@@ -554,7 +555,7 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 11vw;
 		left: 16vw;
 		width: 68vw;
 		height: auto;
@@ -615,7 +616,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -630,6 +631,7 @@ body {
 
 }
 
+/* red */
 @media (max-width: 1230px) {
 	/* home */
 	.top {
@@ -820,7 +822,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 12vw;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
@@ -857,40 +859,6 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 20vh 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
 		font-size: 2.3vw;
@@ -905,7 +873,7 @@ body {
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.4vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -926,7 +894,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -941,6 +909,7 @@ body {
 
 }
 
+/* light peachy */
 @media (max-width: 1140px) {
 	/* home */
 	.top {
@@ -1131,7 +1100,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 13vw;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
@@ -1168,40 +1137,6 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 20vh 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
 		font-size: 2.3vw;
@@ -1216,7 +1151,7 @@ body {
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.4vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -1237,7 +1172,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -1252,6 +1187,7 @@ body {
 
 }
 
+/* browny purplely */
 @media (max-width: 1080px) {
 	/* home */
 	.top {
@@ -1443,7 +1379,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 14vw;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
@@ -1454,25 +1390,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 1.9vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -2vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 1.6vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -1480,15 +1416,10 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 13vw;
 		left: 16vw;
 		width: 68vw;
 		height: auto;
@@ -1496,39 +1427,21 @@ body {
 		padding: 0 0 20vh 0;
 	}
 
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 2.4vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -1549,7 +1462,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -1564,6 +1477,7 @@ body {
 
 }
 
+/* dark red */
 @media (max-width: 970px) {
 	/* home */
 	.top {
@@ -1755,7 +1669,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 16vw;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
@@ -1766,25 +1680,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.3vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -2vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -1792,15 +1706,10 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 15vw;
 		left: 16vw;
 		width: 68vw;
 		height: auto;
@@ -1808,39 +1717,21 @@ body {
 		padding: 0 0 20vh 0;
 	}
 
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 2.4vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.5vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -1861,7 +1752,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 140px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -1920,7 +1811,7 @@ body {
 		margin: 0 10px;
 		text-decoration: none;
 		color: #000000;
-		font-size: 20px;
+		font-size: 23px;
 	}
 
 	.menu a::before {
@@ -2069,9 +1960,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 12vw;
+		left: 13vw;
+		width: 74vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -2080,25 +1971,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -2.5vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -2106,55 +1997,36 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 12vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
 	}
 
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
+	.school .right {
+		margin: 0 0 0 0;
 	}
 
 	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		margin: 0vw 0vw .4vw vw;
+		font-size: 2.8vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 2vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -2175,7 +2047,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 110px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -2190,7 +2062,7 @@ body {
 
 }
 
-/* blue */
+/* tealy */
 @media (max-width: 795px) {
 	/* home */
 	.top {
@@ -2383,9 +2255,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 14vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -2394,25 +2266,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.4vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -2vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.2vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -2420,55 +2292,36 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 13vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
 	}
 
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
+	.school .right {
+		margin: 0 0 0 0;
 	}
 
 	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		margin: 0vw 0vw .4vw vw;
+		font-size: 2.8vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 2vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -2489,7 +2342,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 110px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -2697,9 +2550,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 14vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -2708,25 +2561,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.3vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -2.5vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -2734,55 +2587,36 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 14vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
 	}
 
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
+	.school .right {
+		margin: 0 0 0 0;
 	}
 
 	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		margin: 0vw 0vw .4vw vw;
+		font-size: 2.8vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 2vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -2803,7 +2637,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 110px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -3011,9 +2845,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -3022,25 +2856,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.2vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -3056,9 +2890,9 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 15vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -3066,17 +2900,15 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -3084,19 +2916,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -3117,7 +2949,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 100px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -3131,7 +2963,7 @@ body {
 	/* contact */
 
 }
-
+/* blue */
 @media (max-width: 660px) {
 	/* home */
 	.top {
@@ -3324,9 +3156,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 15vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -3335,25 +3167,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 2.5vw -3vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -3369,9 +3201,9 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 16vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -3379,17 +3211,15 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -3397,19 +3227,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -3430,7 +3260,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 100px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -3637,9 +3467,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 16vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -3648,25 +3478,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 2.6vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 3.5vw -4vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.3vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -3674,17 +3504,12 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 17vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -3692,17 +3517,15 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -3710,19 +3533,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -3743,7 +3566,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 100px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -3951,9 +3774,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 17vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -3962,25 +3785,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3.2vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 4.5vw -4vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -3988,17 +3811,12 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 17vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4006,17 +3824,15 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -4024,19 +3840,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -4057,7 +3873,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 100px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -4071,7 +3887,7 @@ body {
 	/* contact */
 
 }
-
+/* fucia */
 @media (max-width: 570px) {
 	/* home */
 	.top {
@@ -4264,9 +4080,9 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 17vw;
-		width: 66vw;
+		top: 17vw;
+		left: 12vw;
+		width: 76vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
@@ -4275,25 +4091,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
+		margin: .5vw 0vw 5vw -4vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1.5vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -4301,17 +4117,12 @@ body {
 
 
 	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
-		left: 16vw;
-		width: 68vw;
+		top: 17vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4319,17 +4130,15 @@ body {
 
 	.content .left {
 		height: 100%;
-		width: 49.8%;
+		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
+		border-right-style: none;
 	}
 
 	.content .right {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		left: 0;
 		float: left;
 		margin: 0 0 0 -.5vw;
@@ -4337,23 +4146,22 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
+		font-size: 3vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 4vw 1vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
-
 
 
 
@@ -4370,7 +4178,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 100px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -4385,6 +4193,7 @@ body {
 
 }
 
+/* gray green */
 @media (max-width: 540px) {
 	/* home */
 	.top {
@@ -4615,13 +4424,12 @@ body {
 	.school .top {
 		width: 100%;
 	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
-		left: 10vw;
-		width: 80vw;
+		top: 17vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -4632,8 +4440,6 @@ body {
 		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
 		border-right-style: none;
 	}
 
@@ -4647,7 +4453,7 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 4.3vw;
 		text-decoration: none;
 	}
 
@@ -4659,7 +4465,7 @@ body {
 
 	.school p {
 		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		font-size: 2.7vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -4669,8 +4475,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -4680,7 +4485,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -4695,10 +4500,11 @@ body {
 
 }
 
+/* dusty red */
 @media (max-width: 500px) {
 	/* home */
 	.top {
-		background-color: #8fcb7e;
+		background-color: #cb7e7e;
 		width: 100%;
 		height: 60vw;
 		text-align: center;
@@ -4885,7 +4691,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 17vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -4979,8 +4785,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -4990,7 +4795,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5005,6 +4810,7 @@ body {
 
 }
 
+/* light blue*/
 @media (max-width: 470px) {
 	/* home */
 	.top {
@@ -5289,8 +5095,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -5300,7 +5105,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5315,6 +5120,7 @@ body {
 
 }
 
+/* greeny yellow */
 @media (max-width: 440px) {
 	/* home */
 	.top {
@@ -5505,7 +5311,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 18vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5516,7 +5322,7 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
@@ -5527,7 +5333,7 @@ body {
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
+		margin: .5vw 0vw 2.5vw -5vw;
 	}
 
 	.experience li {
@@ -5545,13 +5351,12 @@ body {
 	.school .top {
 		width: 100%;
 	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
-		left: 10vw;
-		width: 80vw;
+		top: 19vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -5562,8 +5367,6 @@ body {
 		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
 		border-right-style: none;
 	}
 
@@ -5577,19 +5380,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 3.8vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -5599,8 +5402,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -5610,7 +5412,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5625,6 +5427,7 @@ body {
 
 }
 
+/* fucia */
 @media (max-width: 400px) {
 	/* home */
 	.top {
@@ -5815,7 +5618,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 20vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5826,25 +5629,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
+		font-size: 5vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 3.5vw;
+		font-size: 4.2vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
+		margin: .5vw 0vw 5vw -5vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 3vw;
+		font-size: 3.7vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -5855,13 +5658,12 @@ body {
 	.school .top {
 		width: 100%;
 	}
-
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
-		left: 10vw;
-		width: 80vw;
+		top: 20vw;
+		left: 11vw;
+		width: 78vw;
 		height: auto;
 		background: rgb(255, 255, 255, 0);
 		padding: 0 0 20vh 0;
@@ -5872,8 +5674,6 @@ body {
 		width: 100%;
 		left: 0;
 		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
 		border-right-style: none;
 	}
 
@@ -5887,30 +5687,28 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.3vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 3.8vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
 
 
 
-
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -5920,7 +5718,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -5935,6 +5733,7 @@ body {
 
 }
 
+/* peachy */
 @media (max-width: 385px) {
 	/* home */
 	.top {
@@ -6125,7 +5924,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 20vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6136,25 +5935,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
+		font-size: 5vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 3.5vw;
+		font-size: 4.2vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
+		margin: .5vw 0vw 5vw -6vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 3vw;
+		font-size: 3.7vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -6169,7 +5968,7 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 20vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6197,19 +5996,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.6vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		margin: .5vw 2vw 4vw 1vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -6219,8 +6018,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -6230,7 +6028,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6242,9 +6040,9 @@ body {
 		height: 1000px;
 	}
 	/* contact */
-
 }
 
+/* burgundy */
 @media (max-width: 360px) {
 	/* home */
 	.top {
@@ -6435,7 +6233,7 @@ body {
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 23vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6446,25 +6244,25 @@ body {
 
 	.experience h1 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
+		font-size: 6vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
 		margin: 0vh 0vw 0vh 0vw;
-		font-size: 3.5vw;
+		font-size: 4.5vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
+		margin: .5vw 0vw 5vw -7vw;
 	}
 
 	.experience li {
 		margin: 0vh 0vw .5vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 3vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -6479,7 +6277,7 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 24vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6507,19 +6305,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.6vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		margin: .5vw 2vw 4vw 1vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -6527,10 +6325,11 @@ body {
 
 
 
+
+
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -6540,7 +6339,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6555,6 +6354,7 @@ body {
 
 }
 
+/* light peachy */
 @media (max-width: 325px) {
 	/* home */
 	.top {
@@ -6732,55 +6532,6 @@ body {
 
 
 
-
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-	
-	.experience .bottom {
-		height: 0vw;
-	}
-	
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 15vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 3.5vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 3vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
 	/* school */
 	.school .top {
 		width: 100%;
@@ -6789,7 +6540,7 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 25vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6817,19 +6568,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.6vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		margin: .5vw 2vw 4vw 1vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -6837,10 +6588,10 @@ body {
 
 
 
+
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -6850,7 +6601,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -6865,6 +6616,7 @@ body {
 
 }
 
+/* gray */
 @media (max-width: 300px) {
 	/* home */
 	.top {
@@ -7042,53 +6794,6 @@ body {
 
 
 
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-	
-	.experience .bottom {
-		height: 0vw;
-	}
-	
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 15vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 4vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 3.5vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -3vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 3vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
 
 	/* school */
 	.school .top {
@@ -7098,7 +6803,7 @@ body {
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 15vw;
+		top: 25vw;
 		left: 10vw;
 		width: 80vw;
 		height: auto;
@@ -7126,19 +6831,19 @@ body {
 
 	.school h1 {
 		margin: 0vw 0vw .4vw 1vw;
-		font-size: 4.5vw;
+		font-size: 5.6vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
 		margin: 0vw 1vw .2vw 1vw;
-		font-size: 3vw;
+		font-size: 4vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 4vw 1vw;
-		font-size: 2.5vw;
+		margin: .5vw 2vw 4vw 1vw;
+		font-size: 3.6vw;
 		text-decoration: none;
 	}
 	/* school */
@@ -7148,8 +6853,7 @@ body {
 
 	/* contact */
 	.contact .top {
-		width: 0;
-		height: 0;
+		width: 100%;
 	}
 
 	.contact .bottom {
@@ -7159,7 +6863,7 @@ body {
 	.contact .content {
 		position: absolute;
 		float: left;
-		top: 10vw;
+		top: 90px;
 		left: 10vw;
 		width: 80vw;
 		height: auto;

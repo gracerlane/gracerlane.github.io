@@ -18,12 +18,14 @@ body {
 	}
 
 	.sidemenu {
-		width: 0;
+		display: none;
 	}
 
 	.open {
 		display: none;
 	}
+
+
 
 	.menu {
 		position: absolute;
@@ -3917,7 +3919,7 @@ body {
 	}
 
 	.home .content {
-		margin: 5vw 16vw 100px 16vw;
+		margin: 2vw 13vw 100px 13vw;
 		float: left;
 	}
 
@@ -3925,7 +3927,7 @@ body {
 		color: black;
 		font-size: 20px;
 		float: left;
-		margin: 3vw 0vw 0vw 0vw;
+		margin: 4vw 0vw 0vw 0vw;
 	}
 	/* home */
 
@@ -4068,7 +4070,7 @@ body {
 @media (max-width: 540px) {
 	/* home */
 	.top {
-		background-color: #b36363;
+		background-color: #564343;
 		width: 100%;
 		height: 60vw;
 		text-align: center;
@@ -4076,68 +4078,66 @@ body {
 	}
 
 	.sidemenu {
-		display: none;
+		display: block;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+
+	.sidemenu a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.sidemenu a:hover {
+		color: #f1f1f1;
 	}
 
 	.open {
-		display: none;
-	}
-
-	.menu {
-		position: absolute;
-		top: 30px;
-		left: 15vw;
-		width: 70vw;
-		line-height: 40px;
-		border-radius: 15px;
-		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #ffffff;
-		overflow: hidden;
-		float: left;
+		font-size: 20px;
+		cursor: pointer;
+		/* background-color: #111; */
+		color: rgb(0, 0, 0);
+		padding: 10px 15px;
+		border: none;
+		border-radius: 100px;
+		cursor: pointer;
+		margin: 20px 20px 0 0;
+		float: right;
 		display: block;
 	}
 
-	#active {
-		font-weight: bold;
-	}
-
-	.menu a {
-		position: relative;
-		cursor: pointer;
-		padding: 0px 5px 4px 5px;
-		margin: 0 3px;
-		text-decoration: none;
-		color: #000000;
-		font-size: 15px;
-	}
-
-	.menu a::before {
-		content: '';
+	.close {
 		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 0;
-		height: 3px;
-		background-color: #aaaaaa;
-		transition: .5s;
-		font-weight: bold;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		cursor: pointer;
 	}
 
-	.menu a:hover::before {
-		width: 100%;
-	}
-
-	.menu a:hover {
-		color: #aaaaaa;
+	.menu {
+		display: none;
 	}
 
 	.home .rect {
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 100px;
-		left: 15vw;
-		width: 70vw;
+		top: 80px;
+		left: 10vw;
+		width: 80vw;
 		height: auto;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -4155,14 +4155,14 @@ body {
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 30px;
+		font-size: 35px;
 		padding: 0;
 		margin: 15px 20px 0 15px;
 	}
 
 	.rect h2 {
 		color: #000000;
-		font-size: 8vw;
+		font-size: 9vw;
 		padding: 0;
 		margin: 0 0px 0 15px;
 	}
@@ -4225,12 +4225,12 @@ body {
 	.bottom {
 		background-color: #000000;
 		width: 100%;
-		height: 135px;
+		height: 140px;
 		float: left;
 	}
 
 	.home .content {
-		margin: 5vw 16vw 100px 16vw;
+		margin: 4vw 12vw 100px 12vw;
 		float: left;
 	}
 
@@ -4541,7 +4541,7 @@ body {
 	}
 
 	.home .content {
-		margin: 4vw 16vw 100px 16vw;
+		margin: 4vw 12vw 100px 12vw;
 		float: left;
 	}
 

@@ -265,20 +265,20 @@ color: rgb(0, 0, 0);
 	}
 
 	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2vw;
+		margin: 0vw 0vw 0vw 1vw;
+		font-size: 1.8vw;
 		text-decoration: none;
 	}
 
 	.school h2 {
-		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.5vw;
+		margin: 0vw 1vw .1vw 1vw;
+		font-size: 1.4vw;
 		text-decoration: none;
 	}
 
 	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
+		margin: 0vw 2vw 1.3vw 1vw;
+		font-size: 1.2vw;
 		text-decoration: none;
 	}
 	/* school */

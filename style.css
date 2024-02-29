@@ -191,36 +191,36 @@ color: rgb(0, 0, 0);
 	.experience .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 9vw;
 		left: 17vw;
 		width: 66vw;
 		height: auto;
 		background-color: #884949;
 		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
+		padding: 0vh 0vw 5vw 0vw;
 	}
 
 	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.5vw;
+		margin: 0vw 0vw 0vh 0vw;
+		font-size: 1.6vw;
 		text-decoration: none;
 	}
 
 	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.2vw;
+		margin: .2vw 0vw 0vw 0vw;
+		font-size: 1.3vw;
 		text-decoration: none;
 	}
 
 	.experience ul {
-		margin: .5vw 0vw 2vw -2vw;
+		margin: .3vw 0vw 2vw -2.3vw;
 	}
 
 	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
+		margin: 0vh 0vw 0vw 0vw;
 		color: black;
 		font-family: sans-serif;
-		font-size: 1vw;
+		font-size: 1.2vw;
 		text-decoration: none;
 	}
 	/* experience */
@@ -238,7 +238,7 @@ color: rgb(0, 0, 0);
 	.school .content {
 		float: left;
 		position: absolute;
-		top: 10vw;
+		top: 9vw;
 		left: 16vw;
 		width: 68vw;
 		height: auto;
@@ -272,13 +272,13 @@ color: rgb(0, 0, 0);
 
 	.school h2 {
 		margin: 0vw 1vw .1vw 1vw;
-		font-size: 1.4vw;
+		font-size: 1.5vw;
 		text-decoration: none;
 	}
 
 	.school p {
 		margin: 0vw 2vw 1.3vw 1vw;
-		font-size: 1.2vw;
+		font-size: 1.3vw;
 		text-decoration: none;
 	}
 	/* school */

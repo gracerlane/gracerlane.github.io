@@ -5,13 +5,13 @@ flex-wrap: wrap;
 color: rgb(0, 0, 0);
 }
 
-@media (orientation: landscape) {
+@media (min-width: 0) {
 	/* home */
 	.top {
 		/* background-color: #694242; */
-		background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb);
+		background-image: linear-gradient(to bottom right, #ccefff, #84d8ff, #65ccff, #e9f8ff);
 		width: 100%;
-		height: 40vw;
+		height: 31vw;
 		text-align: center;
 		float: left;
 		margin-bottom: 12vw;
@@ -22,7 +22,7 @@ color: rgb(0, 0, 0);
 		top: 4vw;
 		left: 15vw;
 		width: 70vw;
-		line-height: 4vw;
+		line-height: 3vw;
 		border-radius: 15px;
 		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #fff;
@@ -42,318 +42,7 @@ color: rgb(0, 0, 0);
 		margin: 0 15px;
 		text-decoration: none;
 		color: #000000;
-		font-size: 2vw;
-	}
-
-	.menu a::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 0;
-		height: .1vw;
-		background-color: #aaaaaa;
-		transition: .5s;
-		font-weight: bold;
-	}
-
-	.menu a:hover::before {
-		width: 100%;
-	}
-
-	.menu a:hover {
-		color: #aaaaaa;
-	}
-
-	.home .rect {
-		overflow: hidden;
-		float: left;
-		position: absolute;
-		top: 11vw;
-		left: 15vw;
-		width: 70vw;
-		height: 40vw;
-		border-radius: 15px;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-	}
-
-	.home .left {
-		float: left;
-		height: 100%;
-		width: 50%;
-		left: 0;
-		border: 0;
-	}
-
-	.rect h1 {
-		font-family: Arial Narrow, sans-serif;
-		color: #909090;
-		font-size: 4vw;
-		padding: 0;
-		margin: 1.5vw 2vw 0 2vw;
-	}
-
-	.rect h2 {
-		color: #000000;
-		font-size: 4vw;
-		padding: 0;
-		margin: 0 0px 0 2vw;
-	}
-
-	.left #divider {
-		background-color: inherit;
-		border: none;
-		border-top: .3vh dotted #dfdfdf;
-		height: 1vw;
-		padding: 0;
-		margin: 1vw 2vw 0 1.5vw;
-	}
-
-	.row {
-		float: left;
-		width: 100%;
-		margin: 0vw 0 1vw 0;
-	}
-
-	.icon {
-		float: left;
-		height: 2.5vw;
-		width: auto;
-		margin: 0 1vw 0 2.5vw;
-	}
-
-	.row a {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2vw;
-	}
-
-	.row p {
-		float: left;
-		font: inherit;
-		color: inherit;
-		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2vw;
-	}
-
-	.home .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		overflow: hidden;
-	}
-
-	.self {
-		margin: 0vh 0px 0 0vw;
-		position: absolute;
-		height: 100%;
-		width: auto;
-		right: 0;
-		bottom: 0;
-	}
-
-	/* .bottom {
-		background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
-		width: 100%;
-		height: 52vw;
-		float: left;
-	} */
-
-	.home .content {
-		margin: 0vh 16vw 0vh 16vw;
-		float: left;
-	}
-
-	.content p {
-		color: black;
-		font-size: 2vw;
-		float: left;
-	}
-	/* home */
-
-
-
-
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-
-	.experience .bottom {
-		height: 0vw;
-	}
-
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 11vw;
-		left: 17vw;
-		width: 66vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 10vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 2vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: 0vh 0vw 0vh 0vw;
-		font-size: 1.6vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .5vw 0vw 2.5vw -1vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw .5vw 0vw;
-		color: black;
-		font-family: sans-serif;
 		font-size: 1.5vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
-
-
-	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 12vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 10vw 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49.8%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 -.5vw;
-	}
-
-	.school h1 {
-		margin: 0vw 0vw .4vw 1vw;
-		font-size: 2.3vw;
-		text-decoration: none;
-	}
-
-	.school h2 {
-		margin: 0vw 1vw .2vw 1vw;
-		font-size: 1.7vw;
-		text-decoration: none;
-	}
-
-	.school p {
-		margin: 0vw 2vw 2vw 1vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-	/* school */
-
-
-
-
-
-
-	/* contact */
-	.contact .top {
-		width: 0;
-		height: 0;
-	}
-
-	.contact .bottom {
-		display: none;
-	}
-
-	.contact .content {
-		display: block;
-		position: absolute;
-		float: left;
-		top: 12vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-	}
-
-	.contact iframe {
-		width: 100%;
-		height: 80vw;
-	}
-	/* contact */
-}
-
-@media (orientation: portrait) {
-	/* home */
-	.top {
-		background-color: #fff;
-		background-image: linear-gradient(to bottom right, #e1f5ff, #74d3ff, #76d1ff, #e3f3fb);
-		width: 100%;
-		height: 40vw;
-		text-align: center;
-		float: left;
-		margin-bottom: 12vw;
-	}
-
-	.menu {
-		position: absolute;
-		top: 4vw;
-		left: 15vw;
-		width: 70vw;
-		line-height: 4vw;
-		border-radius: 15px;
-		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-		overflow: hidden;
-		float: left;
-		display: block;
-	}
-
-	#active {
-		font-weight: bold;
-	}
-
-	.menu a {
-		position: relative;
-		cursor: pointer;
-		padding: 0vh .5vw .3vh .1vw;
-		margin: 0 15px;
-		text-decoration: none;
-		color: #000000;
-		font-size: 2vw;
 	}
 
 	.menu a::before {
@@ -380,10 +69,10 @@ color: rgb(0, 0, 0);
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 11vw;
+		top: 10vw;
 		left: 15vw;
 		width: 70vw;
-		height: 40vw;
+		height: 33vw;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #fff;
@@ -400,9 +89,9 @@ color: rgb(0, 0, 0);
 	.rect h1 {
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
-		font-size: 4vw;
+		font-size: 3vw;
 		padding: 0;
-		margin: 1.5vw 2vw 0 2vw;
+		margin: 1vw 2vw 0 2vw;
 	}
 
 	.rect h2 {
@@ -415,23 +104,24 @@ color: rgb(0, 0, 0);
 	.left #divider {
 		background-color: inherit;
 		border: none;
-		border-top: .3vh dotted #dfdfdf;
+		border-top: .3vw dotted #dfdfdf;
 		height: 1vw;
 		padding: 0;
-		margin: 1vw 2vw 0 1.5vw;
+		margin: 1vw 2vw 0 2vw;
 	}
 
 	.row {
 		float: left;
 		width: 100%;
-		margin: 0vw 0 1vw 0;
+		margin: 0vw 0vw 1vw 0;
 	}
 
 	.icon {
 		float: left;
-		height: 2.5vw;
+		height: 2vw;
 		width: auto;
-		margin: 0 1vw 0 2.5vw;
+		margin: 0 1vw 0vw 2.5vw;
+		background-color: #fff;
 	}
 
 	.row a {
@@ -439,8 +129,8 @@ color: rgb(0, 0, 0);
 		font: inherit;
 		color: inherit;
 		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2vw;
+		margin: 0 0 0vw 0;
+		font-size: 1.5vw;
 	}
 
 	.row p {
@@ -448,8 +138,8 @@ color: rgb(0, 0, 0);
 		font: inherit;
 		color: inherit;
 		text-decoration: none;
-		margin: 0 0 0 0;
-		font-size: 2vw;
+		margin: 0 0 0vw 0;
+		font-size: 1.5vw;
 	}
 
 	.home .right {

@@ -17,6 +17,16 @@
 				<a href="school.html">School</a>
 				<a href="contact.html">Contact</a>
 			</div>
+			<!-- <div class="collapse-button"> -->
+				<button class="openbtn" onclick="openNav()">☰</button>  
+			<!-- </div> -->
+			<div class="collapsed-menu" id="collapsed-menu">
+				<button class="closebtn" onclick="closeNav()">x</button>
+				<a id="active" href="index.html">Home</a>
+				<a href="experience.html">Experience</a>
+				<a href="school.html">School</a>
+				<a href="contact.html">Contact</a>
+			</div>
 		</div>
 
 		<div class="rect" id="rect">
@@ -30,8 +40,8 @@
 					<p><a href="mailto:grjlane@outlook.com">grjlane@outlook.com</a></p>
 				</div>
 				<div class="row">
-					<a href="https://www.linkedin.com/in/grace-lane-8581401b5"><img class="icon" src="pics/linkedIn.PNG"></a>
-					<p><a href="https://www.linkedin.com/in/grace-lane-8581401b5">grace-lane-8581401b5</a></p>
+					<a href="https://www.linkedin.com/in/grace-r-lane"><img class="icon" src="pics/linkedIn.PNG"></a>
+					<p><a href="https://www.linkedin.com/in/grace-r-lane">grace-r-lane</a></p>
 				</div>
 				<div class="row">
 					<img class="icon" src="pics/phone.PNG">
@@ -65,7 +75,28 @@
 				ooking to branch out and explore specific fields that could eventually lead to a full-time career. I enjoy new
 				challenges to learn and grow both professionally and as an individual.
 			</p>
+			<p id="height"></p>
+			<p id="width"></p>
 		</div>
 	</div>
+
+	<script>
+		document.getElementById("height").innerHTML = parseInt(window.innerHeight,10) + " pixels";
+		document.getElementById("width").innerHTML = parseInt(window.innerWidth,10) + " pixels";
+
+
+		function openNav() {
+			document.getElementById("collapsed-menu").style.display = "block";
+			document.getElementById("collapsed-menu").style.width= "100%";
+
+		}
+
+		function closeNav() {
+			document.getElementById("collapsed-menu").style.width= "0";
+		}
+
+	</script>
+
+
 </body>
 </html>

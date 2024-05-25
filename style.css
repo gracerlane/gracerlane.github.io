@@ -5,79 +5,422 @@ flex-wrap: wrap;
 color: rgb(0, 0, 0);
 }
 
+
+/* nav bar */
+.openbtn {    /* button for when window is too small for full nav bar */
+	display: none;
+}
+
+.collapsed-menu {    /* button for when window is too small for full nav bar */
+	display: none;
+}
+
+.menu {      /* navigation bar */
+	position: absolute;
+	top: 4vw;
+	left: 15vw;
+	width: 70vw;
+	line-height: 3vw;
+	border-radius: 15px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+	overflow: hidden;
+	float: left;
+	display: block;
+}
+
+#active {  /* bolds the active page */
+	font-weight: bold;
+}
+
+.menu a {    /* navigation items */
+	position: relative;
+	cursor: pointer;
+	padding: 0vh .5vw .3vh .1vw;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.5vw;
+}
+
+.menu a::before {       /* line under navigation item */
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: .1vw;
+	background-color: #aaaaaa;
+	transition: .5s;
+	font-weight: bold;
+}
+
+.menu a:hover::before {   /* line under naviagation item when hover item */
+	width: 100%;
+}
+
+.menu a:hover {        /* when you hover item */
+	color: #aaaaaa;
+}
+
+
+/* home */
+.top {    /* blue banner part */
+	/* background-color: #694242; */
+	background-image: linear-gradient(to bottom right, #ccefff, #84d8ff, #65ccff, #e9f8ff);
+	width: 100%;
+	height: 31vw;
+	text-align: center;
+	float: left;
+	margin-bottom: 12vw;
+}
+
+.home .rect {         /* main content box */
+	overflow: hidden;
+	float: left;
+	position: absolute;
+	top: 10vw;
+	left: 15vw;
+	width: 70vw;
+	height: 33vw;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+}
+
+.home .left {       /* text part in main content box */
+	float: left;
+	height: 100%;
+	width: 50%;
+	left: 0;
+	border: 0;
+}
+
+.rect h1 {       /* "HELLO!" */
+	font-family: Arial Narrow, sans-serif;
+	color: #909090;
+	font-size: 3vw;
+	padding: 0;
+	margin: 1vw 2vw 0 2vw;
+}
+
+.rect h2 {        /* "MY NAME IS GRACE LANE" */
+	color: #000000;
+	font-size: 4vw;
+	padding: 0;
+	margin: 0 0px 0 2vw;
+}
+
+.left #divider {   /* ...................... */
+	background-color: inherit;
+	border: none;
+	border-top: .3vw dotted #dfdfdf;
+	height: 1vw;
+	padding: 0;
+	margin: 1vw 2vw 0 2vw;
+}
+
+.row {          /* full row */
+	float: left;
+	width: 100%;
+	margin: 0vw 0vw 1vw 0;
+}
+
+.icon {           /* icon */
+	float: left;
+	height: 2vw;
+	width: auto;
+	margin: 0 1vw 0vw 2.5vw;
+	background-color: #fff;
+}
+
+.row a {         /* links in rows */
+	float: left;
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+	margin: 0 0 0vw 0;
+	font-size: 1.5vw;
+}
+
+.row p {        /* words in each row */
+	float: left;
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+	margin: 0 0 0vw 0;
+	font-size: 1.5vw;
+}
+
+.home .right {    /* right side of content box for image of self */
+	height: 100%;
+	width: 50%;
+	left: 0;
+	overflow: hidden;
+}
+
+.self {          /* image of self */
+	margin: 0vh 0px 0 0vw;
+	position: absolute;
+	height: 100%;
+	width: auto;
+	right: 0;
+	bottom: 0;
+}
+
+.home .content {     /* under content box */
+	margin: 0vh 16vw 0vh 16vw;
+	float: left;
+}
+
+.content p {          /* words under content box */
+	color: black;
+	font-size: 1.5vw;
+	float: left;
+}
+/* home */
+
+
+
+
+/* experience */
+.experience .top {
+	height: 0vw;
+}
+
+.experience .bottom {
+	height: 0vw;
+}
+
+.experience .content {
+	float: left;
+	position: absolute;
+	top: 9vw;
+	left: 17vw;
+	width: 66vw;
+	height: auto;
+	background-color: #884949;
+	background: rgb(255, 255, 255, 0);
+	padding: 0vh 0vw 5vw 0vw;
+}
+
+.experience h1 {
+	margin: 0vw 0vw 0vh 0vw;
+	font-size: 1.6vw;
+	text-decoration: none;
+}
+
+.experience h2 {
+	margin: .2vw 0vw 0vw 0vw;
+	font-size: 1.3vw;
+	text-decoration: none;
+}
+
+.experience ul {
+	margin: .3vw 0vw 2vw -2vw;
+}
+
+.experience li {
+	margin: 0vh 0vw 0vw 0vw;
+	color: black;
+	font-family: sans-serif;
+	font-size: 1.2vw;
+	text-decoration: none;
+}
+/* experience */
+
+
+
+
+
+/* school */
+.school .top {
+	width: 0;
+	height: 0;
+}
+
+.school .content {
+	float: left;
+	position: absolute;
+	top: 9vw;
+	left: 16vw;
+	width: 68vw;
+	height: auto;
+	background: rgb(255, 255, 255, 0);
+	padding: 0 0 10vw 0;
+}
+
+.content .left {
+	height: 100%;
+	width: 49%;
+	left: 0;
+	float: left;
+	border-right: #000000;
+	border-right-width: .1vw;
+	border-right-style: solid;
+}
+
+.content .right {
+	height: 100%;
+	width: 50%;
+	left: 0;
+	float: left;
+	margin: 0 0 0 0vw;
+}
+
+.school h1 {
+	margin: 0vw 0vw 0vw 1vw;
+	font-size: 1.8vw;
+	text-decoration: none;
+}
+
+.school h2 {
+	margin: 0vw 1vw .1vw 1vw;
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+.school p {
+	margin: 0vw 2vw 1.3vw 1vw;
+	font-size: 1.3vw;
+	text-decoration: none;
+}
+/* school */
+
+
+
+
+
+
+/* contact */
+.contact .top {
+	height: 0;
+}
+
+.contact .bottom {
+	height: 0;
+}
+
+.contact .content {
+	/* display: block; */
+	position: absolute;
+	float: left;
+	top: 9vw;
+	left: 10vw;
+	width: 80vw;
+	height: auto;
+}
+
+.contact iframe {
+	width: 100%;
+	height: 900px; 
+}
+/* contact */
+
+
+	
+
+@media only screen and (max-width: 620px) {  /* For mobile phones: */
+	/* navigation bar */
+	.menu {
+		display: none;
+	}
+
+	.openbtn {      /* open menu button*/
+		display: block;
+		float: right;
+		margin-top: 3vh;
+		margin-right: 15vw;
+		border: none;
+		background-color: transparent;
+		color: #ffffff;
+		cursor: pointer;
+
+	}
+
+	.collapsed-menu {      /* side bar */
+		display: block;
+		padding: 0px 0px 0vh 0vw;
+		margin: 0vh 0vw 0vh 0vw;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		background-color: #ccefff;
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	
+	#active {  /* bolds the active page */
+		font-weight: bold;
+	}
+
+	.closebtn{    /* close button */
+		background-color: #40555f;
+		cursor: pointer;
+		padding: 3vh 0px 3vh 80vw;
+		margin: 0vh 0vw 0vh 0vw;
+		width: 100%;
+		background-color: transparent;
+		text-decoration: none;
+		font-size: 25px;
+		left: 0;
+		display: block;
+		text-decoration: none;
+		border: none;
+		border-bottom: solid;
+		cursor: pointer;
+	}
+	
+	.collapsed-menu a {    /* navigation items */
+		padding: 3vh 0vw 3vh 0vw;
+		text-decoration: none;
+		font-size: 25px;
+		color: #000000;
+		display: block;
+		transition: 0.3s;
+		border-bottom: #000000;
+		border-bottom: solid;
+	}
+	
+	.collapsed-menu a:hover {        /* when you hover item */
+		text-decoration: none;
+		font-size: 25px;
+		transition: 0.3s;
+		background-color: #65ccff;
+		border-bottom: #000000;
+		border-bottom: solid;
+	}
+	/* navigation bar */
+
+
 	/* home */
-	.top {
+	.top {    /* blue banner part */
 		/* background-color: #694242; */
 		background-image: linear-gradient(to bottom right, #ccefff, #84d8ff, #65ccff, #e9f8ff);
 		width: 100%;
-		height: 31vw;
+		height: 21vw;
 		text-align: center;
 		float: left;
-		margin-bottom: 12vw;
+		margin-bottom: 25vw;
 	}
 
-	.menu {
-		position: absolute;
-		top: 4vw;
-		left: 15vw;
-		width: 70vw;
-		line-height: 3vw;
-		border-radius: 15px;
-		box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		background-color: #fff;
-		overflow: hidden;
-		float: left;
-		display: block;
-	}
-
-	#active {
-		font-weight: bold;
-	}
-
-	.menu a {
-		position: relative;
-		cursor: pointer;
-		padding: 0vh .5vw .3vh .1vw;
-		margin: 0 15px;
-		text-decoration: none;
-		color: #000000;
-		font-size: 1.5vw;
-	}
-
-	.menu a::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 0;
-		height: .1vw;
-		background-color: #aaaaaa;
-		transition: .5s;
-		font-weight: bold;
-	}
-
-	.menu a:hover::before {
-		width: 100%;
-	}
-
-	.menu a:hover {
-		color: #aaaaaa;
-	}
-
-	.home .rect {
+	.home .rect {         /* main content box */
 		overflow: hidden;
 		float: left;
 		position: absolute;
 		top: 10vw;
-		left: 15vw;
-		width: 70vw;
-		height: 33vw;
+		left: 5vw;
+		width: 90vw;
+		height: 50vw;
 		border-radius: 15px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		background-color: #fff;
 	}
 
-	.home .left {
+	.home .left {       /* text part in main content box */
 		float: left;
 		height: 100%;
 		width: 50%;
@@ -85,7 +428,7 @@ color: rgb(0, 0, 0);
 		border: 0;
 	}
 
-	.rect h1 {
+	.rect h1 {       /* "HELLO!" */
 		font-family: Arial Narrow, sans-serif;
 		color: #909090;
 		font-size: 3vw;
@@ -93,14 +436,14 @@ color: rgb(0, 0, 0);
 		margin: 1vw 2vw 0 2vw;
 	}
 
-	.rect h2 {
+	.rect h2 {        /* "MY NAME IS GRACE LANE" */
 		color: #000000;
 		font-size: 4vw;
 		padding: 0;
 		margin: 0 0px 0 2vw;
 	}
 
-	.left #divider {
+	.left #divider {   /* ...................... */
 		background-color: inherit;
 		border: none;
 		border-top: .3vw dotted #dfdfdf;
@@ -109,13 +452,13 @@ color: rgb(0, 0, 0);
 		margin: 1vw 2vw 0 2vw;
 	}
 
-	.row {
+	.row {          /* full row */
 		float: left;
 		width: 100%;
 		margin: 0vw 0vw 1vw 0;
 	}
 
-	.icon {
+	.icon {           /* icon */
 		float: left;
 		height: 2vw;
 		width: auto;
@@ -123,7 +466,7 @@ color: rgb(0, 0, 0);
 		background-color: #fff;
 	}
 
-	.row a {
+	.row a {         /* links in rows */
 		float: left;
 		font: inherit;
 		color: inherit;
@@ -132,7 +475,7 @@ color: rgb(0, 0, 0);
 		font-size: 1.5vw;
 	}
 
-	.row p {
+	.row p {        /* words in each row */
 		float: left;
 		font: inherit;
 		color: inherit;
@@ -141,35 +484,28 @@ color: rgb(0, 0, 0);
 		font-size: 1.5vw;
 	}
 
-	.home .right {
+	.home .right {    /* right side of content box for image of self */
 		height: 100%;
 		width: 50%;
 		left: 0;
 		overflow: hidden;
 	}
 
-	.self {
+	.self {          /* image of self */
 		margin: 0vh 0px 0 0vw;
 		position: absolute;
-		height: 100%;
+		height: 150%;
 		width: auto;
 		right: 0;
-		bottom: 0;
+		top: 0;
 	}
 
-	/* .bottom {
-		background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
-		width: 100%;
-		height: 52vw;
-		float: left;
-	} */
-
-	.home .content {
+	.home .content {     /* under content box */
 		margin: 0vh 16vw 0vh 16vw;
 		float: left;
 	}
 
-	.content p {
+	.content p {          /* words under content box */
 		color: black;
 		font-size: 1.5vw;
 		float: left;
@@ -178,137 +514,5 @@ color: rgb(0, 0, 0);
 
 
 
+}
 
-	/* experience */
-	.experience .top {
-		height: 0vw;
-	}
-
-	.experience .bottom {
-		height: 0vw;
-	}
-
-	.experience .content {
-		float: left;
-		position: absolute;
-		top: 9vw;
-		left: 17vw;
-		width: 66vw;
-		height: auto;
-		background-color: #884949;
-		background: rgb(255, 255, 255, 0);
-		padding: 0vh 0vw 5vw 0vw;
-	}
-
-	.experience h1 {
-		margin: 0vw 0vw 0vh 0vw;
-		font-size: 1.6vw;
-		text-decoration: none;
-	}
-
-	.experience h2 {
-		margin: .2vw 0vw 0vw 0vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-
-	.experience ul {
-		margin: .3vw 0vw 2vw -2vw;
-	}
-
-	.experience li {
-		margin: 0vh 0vw 0vw 0vw;
-		color: black;
-		font-family: sans-serif;
-		font-size: 1.2vw;
-		text-decoration: none;
-	}
-	/* experience */
-
-
-
-
-
-	/* school */
-	.school .top {
-		width: 0;
-		height: 0;
-	}
-
-	.school .content {
-		float: left;
-		position: absolute;
-		top: 9vw;
-		left: 16vw;
-		width: 68vw;
-		height: auto;
-		background: rgb(255, 255, 255, 0);
-		padding: 0 0 10vw 0;
-	}
-
-	.content .left {
-		height: 100%;
-		width: 49%;
-		left: 0;
-		float: left;
-		border-right: #000000;
-		border-right-width: .1vw;
-		border-right-style: solid;
-	}
-
-	.content .right {
-		height: 100%;
-		width: 50%;
-		left: 0;
-		float: left;
-		margin: 0 0 0 0vw;
-	}
-
-	.school h1 {
-		margin: 0vw 0vw 0vw 1vw;
-		font-size: 1.8vw;
-		text-decoration: none;
-	}
-
-	.school h2 {
-		margin: 0vw 1vw .1vw 1vw;
-		font-size: 1.5vw;
-		text-decoration: none;
-	}
-
-	.school p {
-		margin: 0vw 2vw 1.3vw 1vw;
-		font-size: 1.3vw;
-		text-decoration: none;
-	}
-	/* school */
-
-
-
-
-
-
-	/* contact */
-	.contact .top {
-		height: 0;
-	}
-
-	.contact .bottom {
-		height: 0;
-	}
-
-	.contact .content {
-		/* display: block; */
-		position: absolute;
-		float: left;
-		top: 9vw;
-		left: 10vw;
-		width: 80vw;
-		height: auto;
-	}
-
-	.contact iframe {
-		width: 100%;
-		height: 900px; 
-	}
-	/* contact */

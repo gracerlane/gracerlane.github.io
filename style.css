@@ -438,7 +438,7 @@ footer .row p {        /* words in each row */
 		width: 100%;
 		background-color: transparent;
 		text-decoration: none;
-		font-size: 25px;
+		font-size: 10vw;
 		left: 0;
 		display: block;
 		text-decoration: none;
@@ -504,14 +504,16 @@ footer .row p {        /* words in each row */
 	}
 
 	.rect h1 {       /* "HELLO!" */
-		display: none;
+		display: block;
+		margin: 1.5vh 0 0 3vw;
+		font-size: 5vw;
 	}
 
 	.rect h2 {        /* "MY NAME IS GRACE LANE" */
 		color: #000000;
 		font-size: 7vw;
 		padding: 0;
-		margin: 2vh 0px 0 3vw;
+		margin: 0vh 0px 0 3vw;
 	}
 
 	.rect h3{        /* "MY NAME IS GRACE LANE" */
@@ -563,7 +565,7 @@ footer .row p {        /* words in each row */
 	}
 
 	.self {          /* image of self */
-		margin: 0vh 0px 0 0vw;
+		margin: 1vh 0px 0 0vw;
 		position: absolute;
 		height: 100%;
 		width: auto;

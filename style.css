@@ -433,12 +433,11 @@ footer .row p {        /* words in each row */
 
 	.closebtn{    /* close button */
 		cursor: pointer;
-		padding: 3vh 0px 3vh 80vw;
+		padding: 3vh 100vw 3vh 90vw;
 		margin: 0vh 0vw 0vh 0vw;
-		width: 100%;
+		width: 5vw;
 		background-color: transparent;
 		text-decoration: none;
-		font-size: 10vw;
 		left: 0;
 		display: block;
 		text-decoration: none;
@@ -452,7 +451,7 @@ footer .row p {        /* words in each row */
 	.collapsed-menu a {           /* navigation items */
 		padding: 3vh 0vw 3vh 0vw;
 		text-decoration: none;
-		font-size: 25px;
+		font-size: 5vw;
 		display: block;
 		transition: 0.0s;
 		border-bottom: #000000;

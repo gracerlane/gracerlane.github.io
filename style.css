@@ -474,17 +474,17 @@ footer .row p {        /* words in each row */
 	/* home */
 	.top {    /* blue banner part */
 		height: 25vh;
-		margin-bottom: 45vw;
+		margin-bottom: 30vw;
 	}
 
 	.home .rect {         /* main content box */
 		overflow: hidden;
 		float: left;
 		position: absolute;
-		top: 10vh;
+		top: 10vw;
 		left: 5vw;
 		width: 90vw;
-		height: 50vh;
+		height: 90vw;
 	}
 
 	.home .left {       /* text part in main content box */

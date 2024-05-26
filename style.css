@@ -424,7 +424,7 @@ footer .row p {        /* words in each row */
 		/* background-color: #84d8ff; */
 		background-color: #ffffff;
 		overflow-x: hidden;
-		transition: 0.5s;
+		transition: 0.3s;
 	}
 	
 	#active {  /* bolds the active page */
@@ -454,7 +454,7 @@ footer .row p {        /* words in each row */
 		text-decoration: none;
 		font-size: 25px;
 		display: block;
-		transition: 0.3s;
+		transition: 0.0s;
 		border-bottom: #000000;
 		border-bottom: solid;
 		color: #000000;
@@ -463,12 +463,18 @@ footer .row p {        /* words in each row */
 	.collapsed-menu a:hover {        /* when you hover item */
 		text-decoration: none;
 		font-size: 25px;
-		transition: 0.3s;
+		transition: 0.0s;
 		background-color: #ccefff;
 		border-bottom: #000000;
 		border-bottom: solid;
 	}
 	/* navigation bar */
+
+
+
+
+
+
 
 
 	/* home */

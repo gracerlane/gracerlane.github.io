@@ -76,7 +76,8 @@ color: rgb(0, 0, 0);
 	/* left: 0; */
 	width: 100%;
 	height: 10vw;
-	background-color: #f2f2f2;
+	/* background-color: #f2f2f2; */
+	background-color: #732929;
 }
 
 .footer .row1 {           /* icon */
@@ -255,6 +256,7 @@ color: rgb(0, 0, 0);
 
 
 
+
 /* experience */
 .experience .top {
 	height: 0vw;
@@ -308,7 +310,13 @@ color: rgb(0, 0, 0);
 
 
 
+
+
 /* school */
+.school {
+	min-height: 200vh;
+	/* background-color: #65ccff; */
+}
 .school .top {
 	width: 0;
 	height: 0;
@@ -320,9 +328,10 @@ color: rgb(0, 0, 0);
 	top: 9vw;
 	left: 16vw;
 	width: 68vw;
-	height: 100vh;
-	/* background: #000000; */
-	padding: 0 0 10vw 0;
+	/* height: 100vh; */
+	/* background: #ff9393; */
+	/* padding: 0 0 10vw 0; */
+	height:max-content;
 }
 
 .content .left {
@@ -359,7 +368,7 @@ color: rgb(0, 0, 0);
   background-color: transparent;
   color: #000000;
   cursor: pointer;
-  padding: 20px 10px 20px 1vw;
+  padding: 10px 10px 10px 1vw;
   width: 100%;
   border: none;
   text-align: left;

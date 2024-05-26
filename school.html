@@ -21,63 +21,100 @@
 
 		<div class="content">
 			<div class="left">
-				<h1>Computer Science Courses</h1>
+				<h2>Computer Science Courses</h2>
+					<button class="expand-button">Programming and Problem Solving I</button>
+					<div class="expand-content">
+						<p>Introduction to programming and computing fundamentals, with emphasis on problem solving, design and style.
+							Prior programming experience is not required. This course introduces fundamental programming concepts such as
+							functional decomposition, stepwise refinement, control structures, loops, functions, primitive and aggregate
+							data types.</p>
+					</div>
 
-				<h2>Programming and Problem Solving I</h2>
-				<p>Introduction to programming and computing fundamentals, with emphasis on problem solving, design and style.
-					Prior programming experience is not required. This course introduces fundamental programming concepts such as
-					functional decomposition, stepwise refinement, control structures, loops, functions, primitive and aggregate
-					data types.</p>
+					<button class="expand-button">Programming and Problem Solving II</button>
+					<div class="expand-content">
+						<p>Continuation of programming and problem solving, including abstract data types (ADTs), dynamic memory, linked
+						lists, stacks, queues, and testing.</p>
+					</div>
 
-				<h2>Programming and Problem Solving II</h2>
-				<p>Continuation of programming and problem solving, including abstract data types (ADTs), dynamic memory, linked
-					lists, stacks, queues, and testing.</p>
+					<button class="expand-button">Data Structures</button>
+					<div class="expand-content">
+						<p>Fundamental data structures including binary search trees, priority queues, hash tables, and heaps. Abstract
+								data type implementation and design. Code analysis using big-O notation, recursion, and sorting algorithms.
+						</p>
+					</div>
 
-				<h2>Data Structures</h2>
-				<p>Fundamental data structures including binary search trees, priority queues, hash tables, and heaps. Abstract
-					data type implementation and design. Code analysis using big-O notation, recursion, and sorting algorithms.
-				</p>
+					<button class="expand-button">Foundations of Computer Science</button>
+					<div class="expand-content">
+						<p>Introduction to logic, applications of logic, methods of proof , sets, functions, induction, recurrence
+								relations, graphs, and counting.</p>
+					</div>
 
-				<h2>Foundations of Computer Science</h2>
-				<p>Introduction to logic, applications of logic, methods of proof , sets, functions, induction, recurrence
-					relations, graphs, and counting.</p>
+					<button class="expand-button">Fundamentals of Databases</button>
+					<div class="expand-content">
+						<p>Fundamental concepts of database design and applications, including relational database design,
+								entity-relationship (ER) model, standard query language (SQL), transaction management, and triggers. Design
+								and development of applications using databases.</p>
+					</div>
 
-				<h2>Fundamentals of Databases</h2>
-				<p>Fundamental concepts of database design and applications, including relational database design,
-					entity-relationship (ER) model, standard query language (SQL), transaction management, and triggers. Design
-					and development of applications using databases.</p>
+					<button class="expand-button">Languages and Computation</button>
+					<div class="expand-content">
+						<p>Common features, organization and tradeoffs of modern programming languages including types, binding, and
+								memory management. Theoretical foundations of languages and computation including regular expressions,
+								language classification, grammars, and finite state automata. Functional style programming including
+								higher-order functions and closures.</p>
+					</div>
 
-				<h2>Languages and Computation</h2>
-				<p>Common features, organization and tradeoffs of modern programming languages including types, binding, and
-					memory management. Theoretical foundations of languages and computation including regular expressions,
-					language classification, grammars, and finite state automata. Functional style programming including
-					higher-order functions and closures.</p>
-
-				<h2>The Art of Web Design</h2>
-				<p>An introduction to website design with emphasis on the area of human computer interaction (HCI). Topics
-					include defining the audience, planning the site, prototyping and testing the design. HCI topics include an
-					introduction to cognitive psychology, user-centered design methodology and memory characteristics as pertains
-					to interface design. Technical aspects of creating a site include basic text markup, scripting languages and
-					other web tools.</p>
+					<button class="expand-button">The Art of Web Design</button>
+					<div class="expand-content">
+						<p>An introduction to website design with emphasis on the area of human computer interaction (HCI). Topics
+							include defining the audience, planning the site, prototyping and testing the design. HCI topics include an
+							introduction to cognitive psychology, user-centered design methodology and memory characteristics as pertains
+							to interface design. Technical aspects of creating a site include basic text markup, scripting languages and
+							other web tools.</p>
+					</div>
 			</div>
 
 			<div class="right">
-				<h1>Business Courses</h1>
-
-				<h2>Business Statistics</h2>
+				<h2>Business Courses</h2>
+				<button class="expand-button">Business Statistics</button>
+				<div class="expand-content">
 				<p>Basic statistical procedures, concepts, and computer applications used in the business world. Descriptive
 					statistics, probability, decision theory, probability distributions, sampling distributions, statistical
 					inference, chi-square analysis, and correlation.</p>
+				</div>
 
-				<h2>Principles of Macroeconomics</h2>
+				<button class="expand-button">Principles of Macroeconomics</button>
+				<div class="expand-content">
 				<p>Organization, operation, and control of the American economy in its financial and socio-political settings;
 					problems of inflation, unemployment, taxation, the public debt, money, and banking growth.</p>
+				</div>
 
-				<h2>Principles of Accounting I: Financial</h2>
+				<button class="expand-button">Principles of Accounting I: Financial</button>
+				<div class="expand-content">
 				<p>Introduction to financial accounting concepts with emphasis on the development of the student's ability to
 					understand and interpret financial statements of business entities.</p>
+				</div>
 			</div>
 		</div>
 	</div>
+
+	<script>
+		var coll = document.getElementsByClassName("expand-button");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+	</script>
+
+
 </body>
 </html>

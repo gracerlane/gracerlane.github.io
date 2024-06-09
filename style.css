@@ -278,23 +278,23 @@ color: rgb(0, 0, 0);
 	padding: 0vh 0vw 5vw 0vw;
 }
 
-.experience h1 {
-	margin: 0vw 0vw 0vh 0vw;
+.experience .content h1 {
+	margin: 0vw 0vw 0vh 0.5vw;
 	font-size: 1.6vw;
 	text-decoration: none;
 }
 
-.experience h2 {
+.experience .content h2 {
 	margin: .2vw 0vw 0vw 0vw;
 	font-size: 1.3vw;
 	text-decoration: none;
 }
 
-.experience ul {
+.experience .content ul {
 	margin: .3vw 0vw 2vw -2vw;
 }
 
-.experience li {
+.experience .content li {
 	margin: 0vh 0vw 0vw 0vw;
 	color: black;
 	font-family: sans-serif;

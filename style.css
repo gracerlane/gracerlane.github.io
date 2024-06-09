@@ -514,7 +514,8 @@ color: rgb(0, 0, 0);
 
 
 
-.cipher .rect {
+.cipher .caesar {
+	display: block;
 	overflow: hidden;
 	float: left;
 	position: absolute;
@@ -540,11 +541,12 @@ color: rgb(0, 0, 0);
 	height: 100%;
 }
 
-.cipher .left form p {
+.caesar .left form p {
+	display: block;
 	font-weight: bold;
 	margin: 0 1vw 0.5vw 0vw;
 	padding: 0;
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 .cipher .left form input[type=text] {
 	width: 5vw;
@@ -601,12 +603,37 @@ color: rgb(0, 0, 0);
 	height: 100vw;
 }
 
+
+
+
+
+
+
+
 /* cipher */
 
 
 
 
 	
+
+
+
+
+
+
+/* decoder ring */
+
+/* decoder ring */
+
+
+
+
+
+
+
+
+
 
 
 

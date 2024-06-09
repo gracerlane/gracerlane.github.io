@@ -1,0 +1,21 @@
+.ring {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+#outer-ring {
+  top: 50px;
+  left: 50px;
+}
+
+#inner-ring {
+  top: 50px;
+  left: 50px;
+}
